@@ -1,3 +1,5 @@
+[![LOGO](./images/logo-readme.png)](https://olgalatkina.github.io/itmo-lab/ "Code ♥ Wizards")
+
 # ITMO-lab
 
 Лаборатория входит в состав Национального центра когнитивных разработок и специализируется на выполнении разных промышленных задач на основе больших данных.
@@ -15,9 +17,9 @@
 * [Ссылка на доску в Trello](https://trello.com/b/eQZmnSOe/itmo)
 
 **Команда**
-- Булат
-- Валерий Леонтьев
-- Владимир Иванча
-- Мария Кулаковская
-- Ольга Латкина
-- Роман Камельянов
+- [Булат](https://github.com/XcQuake)
+- [Валерий Леонтьев](https://github.com/F4RR311)
+- [Владимир Иванча](https://github.com/VladimirIvancha)
+- [Мария Кулаковская](https://github.com/Smolib)
+- [Ольга Латкина](https://github.com/olgalatkina)
+- [Роман Камельянов](https://github.com/kamelyanov)
