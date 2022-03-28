@@ -28,15 +28,15 @@
 @import url(../blocks/footer/__logo/footer__logo.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__description/footer__description.css);
-
+@import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__list/footer__list.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
-
+@import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__city/footer__city.css);
 @import url(../blocks/footer/__address/footer__address.css);
 @import url(../blocks/footer/__phone/footer__phone.css);
 @import url(../blocks/footer/__mail/footer__mail.css);
-
 @import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
 @import url(../blocks/footer/__developers/footer__developers.css);

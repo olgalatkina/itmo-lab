@@ -8,5 +8,6 @@
   .footer__logo {
     width: 150px;
     height: 54px;
+    grid-column: 1 / -1;
   }
 }

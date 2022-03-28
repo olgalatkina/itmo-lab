@@ -2,10 +2,25 @@
   margin: 0;
   line-height: 16px;
   letter-spacing: normal;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .footer__copyright {
+    grid-column: 1 / -1;
+    align-self: start;
+    height: 30px;
+    margin-top: 30px;
+  }
 }
 
 @media (min-width: 1440px) {
   .footer__copyright {
     line-height: 19px;
+    max-width: 263px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    align-self: start;
+    margin-top: 38px;
   }
 }
