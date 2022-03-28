@@ -15,7 +15,8 @@
 /* EDUCATION */
 
 /* PUBLICATIONS */
-
+@import url(..//blocks/publications/publications.css);
+@import url(..//blocks/publications/__name/publications__name.css);
 /* TEAM */
 
 /* PARTNERS */
