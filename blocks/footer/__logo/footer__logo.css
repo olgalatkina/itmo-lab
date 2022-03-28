@@ -1,0 +1,12 @@
+.footer__logo {
+  display: block;
+  width: 98px;
+  height: 33px;
+}
+
+@media (min-width: 768px) {
+  .footer__logo {
+    width: 150px;
+    height: 54px;
+  }
+}

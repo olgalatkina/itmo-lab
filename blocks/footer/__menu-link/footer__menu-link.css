@@ -1,0 +1,17 @@
+.footer__menu-link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+@media (min-width: 768px) {
+  .footer__menu-link {
+    line-height: 16px;
+    letter-spacing: normal;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer__menu-link {
+    line-height: 19px;
+  }
+}

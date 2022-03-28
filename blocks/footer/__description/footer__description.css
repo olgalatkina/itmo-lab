@@ -1,0 +1,10 @@
+.footer__description {
+  display: none;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .footer__description {
+    display: block;
+  }
+}
