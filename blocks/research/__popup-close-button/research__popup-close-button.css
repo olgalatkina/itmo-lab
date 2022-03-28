@@ -1,0 +1,11 @@
+.research__popup-close-button {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    background-image: url(../../../images/lab/research-close-button.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    border: none;
+    transition: opacity 0.3s;
+}

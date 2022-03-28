@@ -1,0 +1,9 @@
+.research__photo-main {
+  width: 288px;
+  height: 180px;
+  background-image: url(../../../images/lab/image\ 35-w320px.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}

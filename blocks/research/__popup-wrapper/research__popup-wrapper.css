@@ -1,0 +1,7 @@
+.research__popup-wrapper {
+  width: 268px;
+  height: 24px;
+  margin: 16px 0 10px 0;
+  display: flex;
+  justify-content: space-between;
+}

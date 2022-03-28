@@ -1,0 +1,8 @@
+.research__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  margin: 20px 16px 40px 16px;
+  gap: 8px;
+  max-width: 100%;
+
+}
