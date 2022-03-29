@@ -16,7 +16,16 @@
 
 /* PUBLICATIONS */
 @import url(..//blocks/publications/publications.css);
-@import url(..//blocks/publications/__name/publications__name.css);
+@import url(../blocks/publications/__name/publications__name.css);
+@import url(../blocks/publications-card/publications-card.css);
+@import url(../blocks/publications-card/__desc/publications-card__desc.css);
+@import url(../blocks/publications-card/__image/publications-card__image.css);
+@import url(../blocks/publications-card/__links/publications-card__links.css);
+@import url(../blocks/publications-card/__name/publications-card__name.css);
+@import url(../blocks/card-meta/card-meta.css);
+@import url(../blocks/card-meta/__arrow/card-meta__arrow.css);
+@import url(../blocks/card-meta/__breadcrumbs/card-meta__breadcrumbs.css);
+@import url(../blocks/card-meta/__text/card-meta__text.css);
 /* TEAM */
 
 /* PARTNERS */
