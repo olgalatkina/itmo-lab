@@ -1,0 +1,14 @@
+.card-meta {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #009FAC;
+  width: 288px;
+  height: 44px;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 0px 0px 5px 5px;
+}

@@ -1,0 +1,10 @@
+.publications-card{
+  position: relative;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 0 16px 14px;
+  padding: 0 16px 0;
+  height: 462px;
+  width: 256px;
+}
