@@ -1,0 +1,6 @@
+.tooltip {
+  position: relative;
+  left: 152px;
+  bottom: 96px;
+  z-index: 1;
+}

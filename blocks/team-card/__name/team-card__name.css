@@ -1,0 +1,9 @@
+.team-card__name {
+  margin: 10px auto 0;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #000D26;
+  word-wrap: break-word;
+  text-align: center;
+}

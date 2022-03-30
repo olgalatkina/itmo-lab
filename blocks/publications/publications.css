@@ -1,3 +1,6 @@
 .publications {
+  display: flex;
+  flex-direction: column;
   background-color: #E0F0FF;
+  width: 100%;
 }

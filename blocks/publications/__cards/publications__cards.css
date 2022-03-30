@@ -1,0 +1,6 @@
+.publications__cards {
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

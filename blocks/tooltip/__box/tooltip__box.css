@@ -1,0 +1,25 @@
+.tooltip__box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  position: relative;
+  gap: 11px;
+  align-content: space-around;
+  width: 184px;
+  height: 56px;
+  border-radius: 8px;
+}
+
+.tooltip__box::after {
+  content: '';
+  position: absolute;
+  left: 77px;
+  top: 56px;
+  border: 15px solid transparent;
+  border-top: 8px solid white;
+  bottom: -11px;
+}
+
+

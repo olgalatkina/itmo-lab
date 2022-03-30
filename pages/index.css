@@ -17,6 +17,7 @@
 /* PUBLICATIONS */
 @import url(..//blocks/publications/publications.css);
 @import url(../blocks/publications/__name/publications__name.css);
+@import url(../blocks/publications/__cards/publications__cards.css);
 @import url(../blocks/publications-card/publications-card.css);
 @import url(../blocks/publications-card/__desc/publications-card__desc.css);
 @import url(../blocks/publications-card/__image/publications-card__image.css);
@@ -27,8 +28,20 @@
 @import url(../blocks/card-meta/__arrow/card-meta__arrow.css);
 @import url(../blocks/card-meta/__breadcrumbs/card-meta__breadcrumbs.css);
 @import url(../blocks/card-meta/__text/card-meta__text.css);
+@import url(../blocks/pagination/pagination.css);
+@import url(../blocks/pagination/__icon/pagination__icon.css);
+@import url(../blocks/pagination/__icon/_active/pagination__icon_active.css);
+@import url(../blocks/tooltip/tooltip.css);
+@import url(../blocks/tooltip/__box/tooltip__box.css);
+@import url(../blocks/tooltip/__social-icon/tooltip__social-icon.css);
 /* TEAM */
-
+@import url(../blocks/team/team.css);
+@import url(../blocks/team/__name/team__name.css);
+@import url(../blocks/team/__cards/team__cards.css);
+@import url(../blocks/team-card/team-card.css);
+@import url(../blocks/team-card/__name/team-card__name.css);
+@import url(../blocks/team-card/__photo/team-card__photo.css);
+@import url(../blocks/team-card/__desc/team-card__desc.css);
 /* PARTNERS */
 
 /* FEEDBACK */
