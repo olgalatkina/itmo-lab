@@ -5,3 +5,22 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (min-width: 768px) {
+  .research__popup-wrapper {
+    width: 431px;
+    height: 33px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin: 0 0 20px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__popup-wrapper {
+    width: 650px;
+    right: 20px;
+    top: 20px;
+  }
+}

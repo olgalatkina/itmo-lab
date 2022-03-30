@@ -5,7 +5,22 @@
     background-image: url(../../../images/lab/research-close-button.svg);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     padding: 0;
     border: none;
     transition: opacity 0.3s;
+}
+
+@media screen and (min-width: 768px) {
+  .research__popup-close-button {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__popup-close-button {
+    width: 40px;
+    height: 40px;
+  }
 }

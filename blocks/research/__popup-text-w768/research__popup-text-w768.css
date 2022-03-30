@@ -1,24 +1,19 @@
-.research__popup-text {
-  width: 268px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  color: #000000;
-  margin: 10px 0 0 16px;
+.research__popup-text-w768 {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
-  .research__popup-text {
+  .research__popup-text-w768 {
+    display: block;
     width: 431px;
     font-size: 14px;
     line-height: 19px;
-    margin: 0;
+    margin: 0 0 20px 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .research__popup-text {
+  .research__popup-text-w768 {
     width: 650px;
     font-size: 18px;
     line-height: 25px;

@@ -9,4 +9,25 @@
   width: 120px;
   height: 28px;
   margin: 10px 0 0 0;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .research__card-title {
+    font-size: 12px;
+    line-height: 16px;
+    width: 126px;
+    height: 29.45px;
+    margin: 12px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__card-title {
+    font-size: 18px;
+    line-height: 30px;
+    width: 215px;
+    height: 60px;
+    margin: 30px 0 0 0;
+  }
 }

@@ -9,4 +9,23 @@
   border-radius: 36px;
   margin-top: 16px;
   margin-bottom: 16px;
+  z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .research__card-icon-wrapper {
+    width: 41.19px;
+    height: 41.19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__card-icon-wrapper {
+    width: 70px;
+    height: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 }

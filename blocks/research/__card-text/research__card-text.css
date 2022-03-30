@@ -6,7 +6,23 @@
   text-align: center;
   letter-spacing: 0.1px;
   color: #001337;
-  max-width: 121px;
-  max-height: 56px;
+  width: 121px;
+  height: 56px;
   margin: 0 0 16px 0;
+  z-index: 1;
+}
+@media screen and (min-width: 768px) {
+  .research__card-text {
+    width: 126px;
+    margin: 0 0 20px 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__card-text {
+    font-size: 14px;
+    line-height: 20px;
+    width: 215px;
+    margin: 0 0 50px 0;
+  }
 }

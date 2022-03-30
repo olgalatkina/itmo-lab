@@ -1,3 +1,10 @@
 .research__card_active {
   background: #009FAC;
 }
+
+@media screen and (min-width: 768px) {
+  .research__card_active {
+    margin-bottom: 10px;
+    margin-top: -10px;
+  }
+}

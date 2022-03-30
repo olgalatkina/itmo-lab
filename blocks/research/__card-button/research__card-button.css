@@ -17,3 +17,18 @@
 .research__card-button:hover {
   opacity: 0.8;
 }
+
+@media screen and (min-width: 768px) {
+  .research__card-button {
+    width: 126.5px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__card-button {
+    width: 215px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

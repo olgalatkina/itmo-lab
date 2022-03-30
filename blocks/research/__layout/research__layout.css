@@ -1,0 +1,22 @@
+.research__layout {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .research__layout {
+    display: block;
+    width: 150px;
+    max-height: 242px;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__layout {
+    display: block;
+    width: 255px;
+    max-height: 430px;
+  }
+}

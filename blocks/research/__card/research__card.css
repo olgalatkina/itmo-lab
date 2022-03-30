@@ -2,8 +2,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 140px;
+  width: 140px;
   min-height: 224px;
   background: #FFFFFF;
   border-radius: 5.45566px;
+  box-shadow: 0px 2.35349px 11.7674px rgba(1, 54, 157, 0.15);
+}
+
+@media screen and (min-width: 768px) {
+  .research__card {
+    width: 150px;
+    min-height: 242px;
+    /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%); */
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__card {
+    width: 255px;
+    min-height: 430px;
+  }
 }

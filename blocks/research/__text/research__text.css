@@ -8,3 +8,20 @@
   margin: 0;
   padding-top: 20px;
 }
+
+@media screen and (min-width: 768px) {
+  .research__text {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    max-width: 330px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__text {
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 540px;
+  }
+}
