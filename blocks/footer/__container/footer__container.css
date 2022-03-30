@@ -1,0 +1,24 @@
+.footer__container {
+  max-width: 1440px;
+  padding: 40px 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .footer__container {
+    padding: 60px 39px;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer__container {
+    padding: 80px 165px;
+    grid-template-columns: 263px auto auto 210px;
+    column-gap: 0;
+    justify-content: space-between;
+  }
+}
