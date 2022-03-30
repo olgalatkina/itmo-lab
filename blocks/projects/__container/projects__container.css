@@ -1,0 +1,21 @@
+.projects__container {
+  max-width: 1110px;
+  width: calc(100% - 32px);
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 8px; */
+}
+
+@media (min-width: 768px) {
+  .projects__container {
+    width: calc(100% - 78px);
+    /* grid-template-columns: repeat(6, 1fr);
+    column-gap: 30px; */
+  }
+}
+
+@media (min-width: 1440px) {
+  .projects__container {
+
+  }
+}
