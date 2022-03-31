@@ -6,9 +6,16 @@
 
 /* HEADER */
 
-/* ABOUT */
+/* INTRO */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__container/intro__container.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__title/_weight/intro__title_weight_bold.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__button/intro__button.css);
 
-/* RESEARCH */
+/* ABOUT */
+/* RESEACH */
 
 /* PROJECTS */
 @import url(../blocks/projects/projects.css);
