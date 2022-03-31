@@ -1,0 +1,24 @@
+.about__title {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 12px 8px;
+}
+
+@media (min-width: 600px) {
+  .about__title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about__title {
+    font-size: 36px;
+    line-height: 68px;
+    margin-bottom: 25px;
+  }
+}

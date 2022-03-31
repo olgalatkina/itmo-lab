@@ -1,0 +1,15 @@
+.about-card__icon {
+  position: absolute;
+  right: -3%;
+  top: -4%;
+  width: 10.5%;
+}
+
+
+@media (min-width: 600px) {
+  .about-card__icon {
+    right: -4%;
+    top: -6%;
+    width: 12.5%;
+  }
+}

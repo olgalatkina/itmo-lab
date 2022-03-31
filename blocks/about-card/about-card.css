@@ -1,0 +1,26 @@
+.about-card {
+  background-color: var(--light-blue);
+  min-width: 288px;
+  width: 30%;
+  max-width: 348px;
+  max-height: 288px;
+  padding: 16px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 5px;
+}
+
+@media (min-width: 600px) {
+  .about-card {
+    min-width: 330px;
+    max-height: 330px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .about-card {
+    min-width: 348px;
+    max-height: 340px;
+  }
+}
