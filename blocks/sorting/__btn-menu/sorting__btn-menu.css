@@ -1,0 +1,23 @@
+.sorting__btn-menu {
+  margin: 0;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .sorting__btn-menu {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .sorting__btn-menu {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

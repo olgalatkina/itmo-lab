@@ -13,6 +13,17 @@
 /* PROJECTS */
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__container/projects__container.css);
+@import url(../blocks/projects/__title/projects__title.css);
+
+@import url(../blocks/sorting/sorting.css);
+@import url(../blocks/sorting/__title/sorting__title.css);
+@import url(../blocks/sorting/__btn-menu/sorting__btn-menu.css);
+
+@import url(../blocks/project/project.css);
+@import url(../blocks/project/__description/project__description.css);
+@import url(../blocks/project/__description/_iverse/project__description_inverse.css);
+@import url(../blocks/project/__link/project__link.css);
+
 
 /* EDUCATION */
 
