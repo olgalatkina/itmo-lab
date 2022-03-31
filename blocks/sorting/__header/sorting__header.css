@@ -1,0 +1,19 @@
+.sorting__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--emerald);
+}
+
+@media (min-width: 768px) {
+  .sorting__header {
+    display: none;
+  }
+}
+
+/* TODO! удалить, когда появится js */
+.sorting__header:hover ~ .sorting__menu {
+  height: 216px;
+  visibility: visible;
+}
