@@ -9,7 +9,7 @@
 }
 
 @media (min-width: 1440px) {
-  .projects__container {
+  .projects__sorting {
     margin-bottom: 60px;
   }
 }

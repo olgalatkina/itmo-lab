@@ -12,3 +12,23 @@
   border: none;
   border-radius: 50%;
 }
+
+@media (min-width: 768px) {
+  .project__btn-extend {
+    right: 16px;
+    bottom: 16px;
+    width: 32px;
+    height: 32px;
+    background-size: 19.2px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .project__btn-extend {
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background-size: 24px;
+  }
+}

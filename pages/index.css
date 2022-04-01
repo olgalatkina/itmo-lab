@@ -35,13 +35,11 @@
 @import url(../blocks/project/_type/project_type_finance.css);
 @import url(../blocks/project/_type/project_type_industry.css);
 @import url(../blocks/project/_is-change-order/project_is-change-order.css);
+@import url(../blocks/project/_extended/project_extended.css);
 @import url(../blocks/project/__logo/project__logo.css);
 @import url(../blocks/project/__description/project__description.css);
-@import url(../blocks/project/__description/_iverse/project__description_inverse.css);
 @import url(../blocks/project/__link/project__link.css);
-
 @import url(../blocks/project/__btn-extend/project__btn-extend.css);
-
 
 /* EDUCATION */
 

@@ -1,5 +1,6 @@
 .project {
   display: grid;
+  grid-template-columns: 1fr;
   grid-template-rows: 34px 56px auto;
   position: relative;
   width: auto;
@@ -16,12 +17,18 @@
 
 @media (min-width: 768px) {
   .project {
-
+    grid-template-rows: 60px 80px auto;
+    height: 200px;
+    max-height: 200px;
+    padding: 16px;
   }
 }
 
 @media (min-width: 1440px) {
   .project {
-
+    grid-template-rows: 68px 80px auto;
+    height: 228px;
+    max-height: 228px;
+    padding: 20px;
   }
 }

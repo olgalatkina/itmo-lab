@@ -5,17 +5,21 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 8px;
+  max-height: 268px;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {
   .projects__gallery {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    max-height: 430px;
   }
 }
 
 @media (min-width: 1440px) {
   .projects__gallery {
     grid-template-columns: repeat(4, 1fr);
+    max-height: 486px;
   }
 }

@@ -2,5 +2,16 @@
   display: block;
   width: auto;
   height: 26px;
-  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .project__logo {
+    height: 43px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .project__logo {
+    height: 48px;
+  }
 }
