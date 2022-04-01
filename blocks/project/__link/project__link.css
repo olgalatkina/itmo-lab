@@ -1,6 +1,13 @@
 .project__link {
-  display: flex;
+  margin-top: auto;
+  align-self: end;
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: underline;
+  color: var(--white);
+  transition: color .3s linear;
+}
+
+.project__link:hover,
+.project__link:focus {
   color: var(--blue);
 }

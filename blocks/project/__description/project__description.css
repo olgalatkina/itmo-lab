@@ -1,3 +1,5 @@
 .project__description {
   margin: 0;
+  max-height: 56px;
+  overflow: hidden;
 }

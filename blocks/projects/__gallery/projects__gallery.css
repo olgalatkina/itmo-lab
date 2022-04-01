@@ -1,0 +1,21 @@
+.projects__gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+@media (min-width: 768px) {
+  .projects__gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .projects__gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

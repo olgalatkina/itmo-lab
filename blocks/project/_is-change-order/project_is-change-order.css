@@ -1,0 +1,9 @@
+.project_is-change-order {
+  order: -1;
+}
+
+@media (min-width: 768px) {
+  .project_is-change-order {
+    order: 0;
+  }
+}

@@ -11,5 +11,7 @@
   .sorting__menu {
     height: auto;
     visibility: visible;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 }

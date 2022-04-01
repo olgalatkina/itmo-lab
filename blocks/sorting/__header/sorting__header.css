@@ -14,6 +14,6 @@
 
 /* TODO! удалить, когда появится js */
 .sorting__header:hover ~ .sorting__menu {
-  height: 216px;
+  height: 192px;
   visibility: visible;
 }
