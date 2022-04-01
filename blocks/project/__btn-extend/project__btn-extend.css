@@ -11,6 +11,8 @@
   background-size: 12px;
   border: none;
   border-radius: 50%;
+  cursor: pointer;
+  transition: all .3s linear;
 }
 
 @media (min-width: 768px) {

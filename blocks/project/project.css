@@ -4,8 +4,8 @@
   grid-template-rows: 34px 56px auto;
   position: relative;
   width: auto;
-  height: 130px;
-  max-height: 130px;
+  height: 140px;
+  max-height: 140px;
   padding: 10px;
   border-radius: 5px;
   background-color: var(--emerald);
@@ -18,8 +18,8 @@
 @media (min-width: 768px) {
   .project {
     grid-template-rows: 60px 80px auto;
-    height: 200px;
-    max-height: 200px;
+    height: 210px;
+    max-height: 210px;
     padding: 16px;
   }
 }

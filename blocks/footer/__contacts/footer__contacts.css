@@ -8,6 +8,9 @@
     grid-column: 5 / span 2;
     padding-top: 30px;
     max-width: 210px;
+
+    /* временное решение */
+    justify-self: end;
   }
 }
 

@@ -22,6 +22,7 @@
 }
 
 .project_extended .project__link {
+  display: block;
   color: var(--blue);
 }
 

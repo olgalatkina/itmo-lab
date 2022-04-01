@@ -12,6 +12,10 @@
     grid-row: 4 / 5;
     padding-top: 0;
     align-self: end;
+
+    /* временное решение */
+    justify-self: end;
+    margin-right: 58px;
   }
 }
 

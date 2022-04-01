@@ -1,17 +1,18 @@
 .project__logo {
   display: block;
   width: auto;
-  height: 26px;
+  object-fit: contain;
+  max-height: 26px;
 }
 
 @media (min-width: 768px) {
   .project__logo {
-    height: 43px;
+    max-height: 43px;
   }
 }
 
 @media (min-width: 1440px) {
   .project__logo {
-    height: 48px;
+    max-height: 48px;
   }
 }
