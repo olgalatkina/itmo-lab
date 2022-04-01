@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .root {
   font-family: 'Open Sans', Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
@@ -11,4 +15,5 @@
   align-items: center;
   width: 100%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }

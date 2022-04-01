@@ -1,0 +1,18 @@
+.project__logo {
+  display: block;
+  width: auto;
+  object-fit: contain;
+  max-height: 26px;
+}
+
+@media (min-width: 768px) {
+  .project__logo {
+    max-height: 43px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .project__logo {
+    max-height: 48px;
+  }
+}

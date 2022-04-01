@@ -1,0 +1,10 @@
+.project__description {
+  margin: 0;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .project__description {
+    padding-right: 20px;
+  }
+}
