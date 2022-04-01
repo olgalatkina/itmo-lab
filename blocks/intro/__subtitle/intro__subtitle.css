@@ -1,0 +1,21 @@
+.intro__subtitle {
+  font-size: 14px;
+  line-height: 19px;
+  margin: 0 0 50px;
+  max-width: 445px;
+}
+
+@media (min-width: 600px) {
+  .intro__subtitle {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 45px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .intro__subtitle {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+}
