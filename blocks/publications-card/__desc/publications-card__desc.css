@@ -2,6 +2,9 @@
   font-size: 12px;
   line-height: 16px;
   color: #000D26;
-  margin: 10px 0 16px;
+  margin: 0 16px 16px;
   font-weight: 400;
+  z-index: 2;
+  background-color: white;
+  min-height: 188px;
 }

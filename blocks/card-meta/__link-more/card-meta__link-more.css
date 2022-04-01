@@ -1,6 +1,7 @@
 .card-meta__link-more {
   display: flex;
   text-decoration: none;
+  cursor: pointer;
 }
 
 

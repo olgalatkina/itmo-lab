@@ -1,5 +1,6 @@
 .publications-card__image {
   height: 160px;
   width: 256px;
-  margin-top: 16px;
+  transition: transform .4s;
+  margin: 16px 16px 12px;
 }
