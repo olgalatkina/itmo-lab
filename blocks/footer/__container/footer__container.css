@@ -10,7 +10,7 @@
   .footer__container {
     width: calc(100% - 78px);
     grid-template-columns: repeat(4, auto);
-    column-gap: 0;
+    column-gap: 30px;
     justify-content: space-between;
   }
 }
