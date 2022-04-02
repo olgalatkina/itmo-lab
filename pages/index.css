@@ -30,7 +30,8 @@
 @import url(../blocks/sorting/__btn-menu/sorting__btn-menu.css);
 @import url(../blocks/sorting/__btn-menu/_active/sorting__btn-menu_active.css);
 @import url(../blocks/projects/__gallery/projects__gallery.css);
-
+@import url(../blocks/projects/__gallery/_opened/projects__gallery_opened.css);
+@import url(../blocks/projects/__btn-gallery/projects__btn-gallery.css);
 @import url(../blocks/project/project.css);
 @import url(../blocks/project/_type/project_type_finance.css);
 @import url(../blocks/project/_type/project_type_industry.css);

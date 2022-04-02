@@ -13,6 +13,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
+  transition: all .5s linear;
 }
 
 @media (min-width: 768px) {
@@ -27,8 +28,8 @@
 @media (min-width: 1440px) {
   .project {
     grid-template-rows: 68px 80px auto;
-    height: 228px;
-    max-height: 228px;
+    height: 238px;
+    max-height: 238px;
     padding: 20px;
   }
 }
