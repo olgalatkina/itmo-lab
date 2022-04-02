@@ -5,3 +5,11 @@
   color: #000D26;
   font-weight: 600;
 }
+
+@media (min-width: 768px) {
+  .publications-card__name {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 20px 4px;
+  }
+}

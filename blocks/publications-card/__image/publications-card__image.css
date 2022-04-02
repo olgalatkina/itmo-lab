@@ -4,3 +4,18 @@
   transition: transform .4s;
   margin: 16px 16px 12px;
 }
+
+@media (min-width: 768px) {
+  .publications-card__image {
+    height: 160px;
+    width: 291px;
+    margin: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publications-card__image {
+    height: 223px;
+    width: 310px;
+  }
+}

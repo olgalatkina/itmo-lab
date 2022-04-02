@@ -8,3 +8,18 @@
   background-color: white;
   min-height: 188px;
 }
+
+@media (min-width: 768px) {
+  .publications-card__desc {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 20px 10px;
+  }
+}
+@media (min-width: 1440px) {
+  .publications-card__desc {
+    font-size: 14px;
+    line-height: 19px;
+    min-height: 162px;
+  }
+}

@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   background-image: url(../../../images/icons/icon_share.svg);
+  fill: #FF2D49;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

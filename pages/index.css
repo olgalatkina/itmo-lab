@@ -18,6 +18,7 @@
 @import url(..//blocks/publications/publications.css);
 @import url(../blocks/publications/__name/publications__name.css);
 @import url(../blocks/publications/__cards/publications__cards.css);
+@import url(../blocks/publications/__slider-button/publications__slider-button.css);
 @import url(../blocks/publications-card/publications-card.css);
 @import url(../blocks/publications-card/__info/publications-card__info.css);
 @import url(../blocks/publications-card/__desc/publications-card__desc.css);

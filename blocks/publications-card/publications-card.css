@@ -4,14 +4,29 @@
   background-color: #009FAC;
   box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
   border-radius: 5px;
-  margin: 0 16px 14px;
+  margin: 0 auto 14px;
   height: 462px;
   width: 288px;
   z-index: 1;
   overflow: hidden;
 }
 
-.publications-card:hover .publications-card__image {
-  height: 160px;
+@media (min-width: 768px) {
+  .publications-card:hover .publications-card__image {
+    height: 158px;
+  }
 }
 
+@media (min-width: 768px) {
+  .publications-card {
+    height: 515px;
+    width: 330px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publications-card {
+    height: 548px;
+    width: 348px;
+  }
+}

@@ -6,3 +6,11 @@
   font-weight: 400;
   font-style: italic;
 }
+
+@media (min-width: 768px) {
+  .publications-card__links {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 20px 12px;
+  }
+}

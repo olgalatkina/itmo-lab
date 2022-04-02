@@ -1,6 +1,29 @@
 .publications__cards {
-  margin: 20px auto 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  margin: 0 auto 0;
+ }
+
+@media (min-width: 630px) {
+  .publications__cards {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
 }
+
+@media (min-width: 1024px) {
+  .publications__cards {
+    width: 1120px;
+  }
+}
+
+@media (min-width: 1180px) {
+  .publications__cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
