@@ -12,6 +12,8 @@
     grid-row: 4 / 5;
     padding-top: 0;
     align-self: end;
+    /* исключительно для визуального выравнивания по базовой линии шрифта */
+    margin-bottom: 4px;
   }
 }
 
