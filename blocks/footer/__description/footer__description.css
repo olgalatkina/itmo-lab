@@ -6,15 +6,15 @@
 @media (min-width: 768px) {
   .footer__description {
     display: block;
-    max-width: 263px;
-    grid-column: 1 / span 2;
+    max-width: 210px;
+    grid-column: 1 / 2;
     margin: 30px 0 0;
   }
 }
 
 @media (min-width: 1440px) {
   .footer__description {
-    grid-column: 1 / 2;
+    max-width: 263px;
     grid-row: 2 / 3;
     align-self: end;
     margin: 100px 0 0;

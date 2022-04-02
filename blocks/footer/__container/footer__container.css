@@ -9,16 +9,14 @@
 @media (min-width: 768px) {
   .footer__container {
     width: calc(100% - 78px);
-    grid-template-columns: repeat(6, 1fr);
-    column-gap: 30px;
+    grid-template-columns: repeat(4, auto);
+    column-gap: 0;
+    justify-content: space-between;
   }
 }
 
 @media (min-width: 1440px) {
   .footer__container {
     width: calc(100% - 330px);
-    grid-template-columns: 263px auto auto 210px;
-    column-gap: 0;
-    justify-content: space-between;
   }
 }

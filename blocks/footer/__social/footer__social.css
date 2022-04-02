@@ -8,21 +8,15 @@
 
 @media (min-width: 768px) {
   .footer__social {
-    grid-column: 5 / -1;
+    grid-column: 4 / 5;
     grid-row: 4 / 5;
     padding-top: 0;
     align-self: end;
-
-    /* временное решение */
-    justify-self: end;
-    margin-right: 58px;
   }
 }
 
 @media (min-width: 1440px) {
   .footer__social {
-    grid-column: 4 / 5;
     grid-row: 2 / 3;
-    align-self: end;
   }
 }
