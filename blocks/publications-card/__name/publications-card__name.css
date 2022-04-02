@@ -4,6 +4,10 @@
   line-height: 19px;
   color: #000D26;
   font-weight: 600;
+  max-height: 60px;
+  max-width: 90%;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 @media (min-width: 768px) {

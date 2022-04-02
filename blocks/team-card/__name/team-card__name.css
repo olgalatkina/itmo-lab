@@ -1,9 +1,26 @@
 .team-card__name {
-  margin: 10px auto 0;
   font-size: 12px;
   line-height: 16px;
   font-weight: 600;
   color: #000D26;
   word-wrap: break-word;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .team-card__name {
+    height: 38px;
+    margin: 12px auto 0;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .team-card__name {
+    height: 60px;
+    margin: 20px auto 0;
+    font-size: 18px;
+    line-height: 30px;
+  }
 }

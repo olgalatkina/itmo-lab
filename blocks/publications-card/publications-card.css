@@ -7,26 +7,24 @@
   margin: 0 auto 14px;
   height: 462px;
   width: 288px;
-  z-index: 1;
-  overflow: hidden;
-}
-
-@media (min-width: 768px) {
-  .publications-card:hover .publications-card__image {
-    height: 158px;
-  }
-}
-
-@media (min-width: 768px) {
-  .publications-card {
-    height: 515px;
-    width: 330px;
-  }
 }
 
 @media (min-width: 1440px) {
-  .publications-card {
-    height: 548px;
-    width: 348px;
-  }
+.publications-card:hover .publications-card__image {
+height: 158px;
+}
+}
+
+@media (min-width: 768px) {
+.publications-card {
+height: 515px;
+width: 330px;
+}
+}
+
+@media (min-width: 1440px) {
+.publications-card {
+height: 548px;
+width: 348px;
+}
 }

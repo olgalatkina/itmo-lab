@@ -5,3 +5,19 @@
   color: #000D26;
   text-align: center;
 }
+
+@media (min-width: 768px) {
+  .team__name  {
+    margin: 60px auto 40px;
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .team__name  {
+    margin: 80px auto 30px;
+    font-size: 36px;
+    line-height: 68px;
+  }
+}

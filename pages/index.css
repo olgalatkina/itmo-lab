@@ -36,6 +36,7 @@
 /* TEAM */
 @import url(../blocks/team/team.css);
 @import url(../blocks/team/__name/team__name.css);
+@import url(../blocks/team/__slider-button/team__slider-button.css);
 @import url(../blocks/team/__cards/team__cards.css);
 @import url(../blocks/team-card/team-card.css);
 @import url(../blocks/team-card/__name/team-card__name.css);

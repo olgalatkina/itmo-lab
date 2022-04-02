@@ -1,7 +1,6 @@
 .tooltip {
-  position: relative;
-  left: 152px;
-  bottom: 96px;
-  z-index: 1;
-  display: none;
+  position: absolute;
+  left: 224px;
+  bottom: 65px;
+  z-index: 4;
 }

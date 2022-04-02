@@ -6,3 +6,17 @@
   line-height: 14px;
   color: #009FAC;
 }
+
+@media (min-width: 768px) {
+  .team-card__name {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .team-card__name {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

@@ -15,15 +15,10 @@
   }
 }
 
-@media (min-width: 1024px) {
-  .publications__cards {
-    width: 1120px;
-  }
-}
-
 @media (min-width: 1180px) {
   .publications__cards {
     grid-template-columns: 1fr 1fr 1fr;
+    width: 1110px;
   }
 }
 

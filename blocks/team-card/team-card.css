@@ -7,4 +7,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto 14px;
+}
+
+@media (min-width: 768px) {
+  .team-card {
+    height: 337px;
+    width: 210px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .team-card {
+    height: 439px;
+    width: 255px;
+  }
 }

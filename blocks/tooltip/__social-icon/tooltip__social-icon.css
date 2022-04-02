@@ -1,6 +1,8 @@
 .tooltip__social-icon {
   background: #009FAC;
-  filter: invert(100%);
+  filter: currentColor;
+  color: #AEAFDD;
   width: 22px;
   height: 22px;
+  border-radius: 3px;
 }
