@@ -1,6 +1,22 @@
 .education__programs-title {
   margin: 0;
   font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
   text-align: left;
   color: var(--dark-blue);
+}
+
+@media (min-width: 768px) {
+  .education__programs-title {
+    font-size: 1.56vw;
+    line-height: 2.6vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .education__programs-title {
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
