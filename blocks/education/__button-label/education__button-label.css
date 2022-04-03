@@ -10,6 +10,10 @@
   color: var(--white);
 }
 
+.education__button-label:hover {
+  color: var(--light-blue);
+}
+
 @media (min-width: 768px) {
   .education__button-label {
     border-radius: 10px;
