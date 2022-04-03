@@ -1,4 +1,8 @@
 .education__link {
+  width: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -15,6 +19,7 @@
 
 @media (min-width: 600px) {
   .education__link {
+    width: 115px;
     grid-area: 2 / 1 / 3 / 2;
     font-size: 14px;
     line-height: 19px;
@@ -23,6 +28,7 @@
 
 @media (min-width: 1440px) {
   .education__link {
+    width: 138px;
     font-size: 18px;
     line-height: 30px;
   }

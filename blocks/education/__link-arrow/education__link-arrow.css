@@ -1,0 +1,8 @@
+.education__link-arrow {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url('../../../images/icons/ico_arrow-right.svg');
+  background-repeat: no-repeat;
+  /* margin-left: 15px; */
+}
