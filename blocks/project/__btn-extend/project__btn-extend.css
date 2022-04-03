@@ -18,6 +18,7 @@
 .project__btn-extend:hover,
 .project__btn-extend:focus {
   background-color: var(--emerald);
+  /* background-color: var(--dark-blue); */
   background-image: url(../../../images/icons/ico_arrow-right_white.svg);
 }
 
