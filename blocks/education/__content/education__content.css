@@ -11,7 +11,7 @@
 
 @media (min-width: 600px) {
   .education__content {
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1.5fr 1.25fr;
     grid-template-rows: auto 24px;
     column-gap: 30px;
     row-gap: 20px;
