@@ -1,0 +1,7 @@
+.projects__gallery_opened {
+  max-height: none;
+}
+
+.projects__gallery_opened ~ .projects__btn-gallery {
+  transform: rotate(180deg);
+}

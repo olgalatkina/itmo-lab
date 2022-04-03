@@ -1,0 +1,15 @@
+.project__link {
+  display: none;
+  margin-top: auto;
+  max-width: 80px;
+  align-self: end;
+  font-weight: 600;
+  text-decoration: underline;
+  color: var(--white);
+  transition: color .3s linear;
+}
+
+.project__link:hover,
+.project__link:focus {
+  color: var(--blue);
+}

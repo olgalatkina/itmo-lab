@@ -1,0 +1,25 @@
+.footer__city {
+  margin: 0 0 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: normal;
+}
+
+@media (min-width: 768px) {
+  .footer__city {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    margin: 0 0 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer__city {
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: normal;
+  }
+}
