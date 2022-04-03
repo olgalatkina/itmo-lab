@@ -7,22 +7,22 @@
   grid-area: 2 / 1 / 3 / 2;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .education__programs {
     grid-area: 1 / 1 / 2 / 2;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 1.56vw;
+    line-height: 2.6vw;
   }
 }
 
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .education__programs {
     font-size: 14px;
     line-height: 22px;
   }
-}
+} */
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .education__programs {
     font-size: 18px;
     line-height: 30px;

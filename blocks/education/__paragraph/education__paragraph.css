@@ -1,5 +1,6 @@
 .education__paragraph {
   max-width: 920px;
+  width: calc(100% - 32px);
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
@@ -11,15 +12,16 @@
   margin: 20px 0 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   .education__paragraph {
-    font-size: 14px;
-    line-height: 20px;
+    width: calc(100% - 78px);
+    font-size: 1.8vw;
+    line-height: 2.6vw;
     margin: 30px 0 40px;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .education__paragraph {
     font-size: 18px;
     line-height: 30px;
