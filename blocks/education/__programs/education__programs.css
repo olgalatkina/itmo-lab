@@ -1,0 +1,30 @@
+.education__programs {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+@media (min-width: 768px) {
+  .education__programs {
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .education__programs {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .education__programs {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

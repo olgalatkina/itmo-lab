@@ -3,3 +3,18 @@
 @import url(../variables/variables.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/main/main.css);
+
+/* EDUCATION */
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__paragraph/education__paragraph.css);
+@import url(../blocks/education/__container/education__container.css);
+@import url(../blocks/education/__programs/education__programs.css);
+@import url(../blocks/education/__programs-title/education__programs-title.css);
+@import url(../blocks/education/__list/education__list.css);
+@import url(../blocks/education/__link/education__link.css);
+@import url(../blocks/education/__image/education__image.css);
+@import url(../blocks/education/__toggle/education__toggle.css);
+@import url(../blocks/education/__button/education__button.css);
+@import url(../blocks/education/__button-label/education__button-label.css);
+@import url(../blocks/education/__container/_active/education__container_active.css);

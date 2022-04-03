@@ -1,0 +1,17 @@
+.education__button-label {
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 12px 0 12px;
+  box-sizing: border-box;
+  background-color: var(--emerald);
+  cursor: pointer;
+  transition: .1s linear;
+  color: var(--white);
+}
+
+@media (min-width: 768px) {
+  .education__button-label {
+    border-radius: 10px;
+  }
+}
