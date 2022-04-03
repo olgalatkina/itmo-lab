@@ -5,5 +5,4 @@
 
 .footer__icon:hover {
   opacity: .7;
-  filter: invert(45%) sepia(46%) saturate(1712%) hue-rotate(149deg) brightness(89%) contrast(101%);
 }

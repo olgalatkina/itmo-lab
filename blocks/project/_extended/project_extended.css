@@ -9,6 +9,8 @@
   grid-column: 1;
   grid-row: 1 / 3;
   justify-self: end;
+  /* цвет подобран на глаз */
+  filter: invert(85%) sepia(25%) saturate(1712%) hue-rotate(185deg) brightness(90%) contrast(101%);;
 }
 
 .project_extended.project {
@@ -32,7 +34,13 @@
 
 .project_extended .project__btn-extend {
   background-color: var(--emerald);
+  background-image: url(../../../images/icons/ico_arrow-right_white.svg);
   transform: rotate(180deg);
+}
+
+.project_extended .project__btn-extend:hover {
+  background-color: var(--white);
+  background-image: url(../../../images/icons/ico_arrow-right.svg);
 }
 
 @media (min-width: 768px) {
