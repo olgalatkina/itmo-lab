@@ -2,7 +2,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  background-image: url('../../../images/icons/ico_arrow-right.svg');
+  transition: background-image .3s linear;
+  background-image: url('../../../images/icons/ico_arrow-right_dark.svg');
   background-repeat: no-repeat;
-  /* margin-left: 15px; */
 }

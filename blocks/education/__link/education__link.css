@@ -17,6 +17,10 @@
   color: var(--emerald);
 }
 
+.education__link:hover .education__link-arrow {
+  background-image: url('../../../images/icons/ico_arrow-right.svg');
+}
+
 
 @media (min-width: 600px) {
   .education__link {
