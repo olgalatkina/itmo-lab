@@ -38,6 +38,8 @@
 @import url(../blocks/project/_is-change-order/project_is-change-order.css);
 @import url(../blocks/project/_extended/project_extended.css);
 @import url(../blocks/project/__logo/project__logo.css);
+@import url(../blocks/project/__logo/_type/project__logo_type_gasprom.css);
+@import url(../blocks/project/__logo/_type/project__logo_type_sberbank.css);
 @import url(../blocks/project/__description/project__description.css);
 @import url(../blocks/project/__link/project__link.css);
 @import url(../blocks/project/__btn-extend/project__btn-extend.css);
