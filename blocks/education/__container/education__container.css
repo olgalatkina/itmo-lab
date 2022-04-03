@@ -25,7 +25,6 @@
 
 @media (min-width: 1440px) {
   .education__container {
-    width: calc(100% - 270px);
     grid-template-columns: 635px 445px;
     row-gap: 30px;
     padding: 30px;

@@ -1,13 +1,15 @@
 .education__link {
-  text-align: left;
-  font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
   text-decoration: none;
   color: var(--dark-blue);
   grid-area: 3 / 1 / 4 / 2;
+}
+
+.education__link:hover {
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 @media (min-width: 600px) {

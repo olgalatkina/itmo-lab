@@ -1,8 +1,6 @@
 .education__paragraph {
   max-width: 920px;
   width: calc(100% - 32px);
-  font-family: 'Open Sans';
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
