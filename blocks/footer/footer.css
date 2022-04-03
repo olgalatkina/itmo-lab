@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 60px 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer {
+    padding: 80px 0;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: normal;
+  }
+}

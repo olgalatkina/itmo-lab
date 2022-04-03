@@ -1,0 +1,15 @@
+.projects__sorting {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .projects__sorting {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .projects__sorting {
+    margin-bottom: 60px;
+  }
+}

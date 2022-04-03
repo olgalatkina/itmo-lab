@@ -1,0 +1,20 @@
+.footer__contacts {
+  grid-column: 1 / span 2;
+  padding-top: 40px;
+}
+
+@media (min-width: 768px) {
+  .footer__contacts {
+    grid-column: 4 / 5;
+    padding-top: 30px;
+    max-width: 210px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer__contacts {
+    grid-row: 2 / 3;
+    align-self: start;
+    padding-top: 38px;
+  }
+}

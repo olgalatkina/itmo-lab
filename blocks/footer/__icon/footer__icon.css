@@ -1,0 +1,8 @@
+.footer__icon {
+  display: block;
+  transition: opacity .3s linear;
+}
+
+.footer__icon:hover {
+  opacity: .7;
+}

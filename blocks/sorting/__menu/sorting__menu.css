@@ -1,0 +1,17 @@
+.sorting__menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 0;
+  visibility: collapse;
+  transition: all .5s linear;
+}
+
+@media (min-width: 768px) {
+  .sorting__menu {
+    height: auto;
+    visibility: visible;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
