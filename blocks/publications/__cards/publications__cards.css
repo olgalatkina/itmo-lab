@@ -1,23 +1,30 @@
 .publications__cards {
   position: relative;
   width: 100%;
-  display: grid;
+  display: flex;
+  justify-content: flex-start;
   gap: 30px;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   margin: 0 auto 0;
- }
+  flex-shrink: 0;
+  overflow: hidden;
+}
 
-@media (min-width: 630px) {
+@media (max-width: 320px) {
   .publications__cards {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
+    gap: 8px;
   }
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 768px) {
   .publications__cards {
-    grid-template-columns: 1fr 1fr 1fr;
+    width: 690px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publications__cards {
     width: 1110px;
   }
 }

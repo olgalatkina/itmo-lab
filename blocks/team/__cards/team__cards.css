@@ -1,24 +1,29 @@
 .team__cards {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 auto -418px; /*поправить отступы после реализации слайдера*/
-    background-color: transparent;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  flex-direction: row;
+  margin: 0 auto 0;
+  overflow: hidden;
+  transition: all .2s linear;
+}
+
+@media (max-width: 320px) {
+  .team__cards {
+    gap: 8px;
+  }
 }
 
 @media (min-width: 768px) {
-    .team__cards {
-        grid-template-columns: repeat(3, 1fr);
-        margin: 0 auto -230px;
-    }
+  .team__cards {
+    width: 690px;
+  }
 }
 
 @media (min-width: 1440px) {
-    .team__cards {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 30px;
-        width: 1110px;
-        margin: 0 auto -230px;
-    }
+  .team__cards {
+    width: 1110px;
+  }
 }

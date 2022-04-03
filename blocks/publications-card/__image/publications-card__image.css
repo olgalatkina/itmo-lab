@@ -1,7 +1,7 @@
 .publications-card__image {
   height: 160px;
   width: 256px;
-  transition: transform .4s;
+  transition: .15s linear;
   margin: 16px 16px 12px;
 }
 

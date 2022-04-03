@@ -1,22 +1,17 @@
 .team-card__desc {
-  margin: 4px auto 0;
+  display: flex;
   font-style: italic;
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
-  color: #009FAC;
-}
-
-@media (min-width: 768px) {
-  .team-card__name {
-    font-size: 12px;
-    line-height: 17px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .team-card__name {
-    font-size: 14px;
-    line-height: 19px;
-  }
+  color: var(--emerald);
+  word-wrap: break-word;
+  margin: 0;
+  align-self: center;
+  bottom: 0;
+  margin-top: 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
 }

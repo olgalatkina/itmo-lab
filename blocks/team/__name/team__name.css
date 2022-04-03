@@ -2,8 +2,8 @@
   margin: 54px auto 20px;
   font-size: 16px;
   line-height: 22px;
-  color: #000D26;
-  text-align: center;
+  color: var(--dark-blue);
+  word-wrap: inherit;
 }
 
 @media (min-width: 768px) {

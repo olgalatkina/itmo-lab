@@ -2,25 +2,30 @@
   font-size: 12px;
   line-height: 16px;
   font-weight: 600;
-  color: #000D26;
-  word-wrap: break-word;
+  max-height: 32px;
+  color: var(--dark-blue);
   text-align: center;
+  word-wrap: break-word;
+  overflow: hidden;
+  margin: 0;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 
 @media (min-width: 768px) {
   .team-card__name {
-    height: 38px;
-    margin: 12px auto 0;
     font-size: 14px;
     line-height: 19px;
+    max-height: 38px;
   }
 }
 
 @media (min-width: 1440px) {
   .team-card__name {
-    height: 60px;
-    margin: 20px auto 0;
     font-size: 18px;
     line-height: 30px;
+    max-height: 60px;
   }
 }

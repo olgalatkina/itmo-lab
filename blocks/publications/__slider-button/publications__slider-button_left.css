@@ -1,4 +1,4 @@
-.publications__slider-button {
+.publications__slider-button_left {
   position: absolute;
   width: 60px;
   height: 60px;
@@ -11,21 +11,13 @@
   box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
   transform: translateY(-50%);
   cursor: pointer;
-}
-
-/*кнопка слева(влево)*/
-.publications__slider-button:nth-child(1) {
   background-image: url(../../../images/icons/ico_arrow-left.svg);
   left: -76px;
-}
-/*кнопка спрва(справа)*/
-.publications__slider-button:nth-child(2) {
-  background-image: url(../../../images/icons/ico_arrow-right.svg);
-  right: -76px;
+  z-index: 20;
 }
 
 @media (max-width: 1279px) {
-  .publications__slider-button {
+  .publications__slider-button_left {
     display: none;
   }
 }

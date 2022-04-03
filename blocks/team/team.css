@@ -1,7 +1,5 @@
 .team {
-  background-color: #E0F0FF;
+  background: linear-gradient(var(--light-blue) 63%, var(--blue) 37%);
   width: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
