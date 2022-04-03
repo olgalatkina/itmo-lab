@@ -1,32 +1,13 @@
 .education__container {
-  margin: 0;
   max-width: 1169px;
   width: calc(100% - 32px);
-  background-color: var(--white);
-  display: none;
-  grid-template-rows: 160px auto auto;
+  display: flex;
   flex-direction: column;
-  row-gap: 12px;
-  border-radius: 5px;
-  padding: 16px;
-  box-sizing: border-box;
+  align-items: center;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .education__container {
     width: calc(100% - 78px);
-    grid-template-columns: 1.5fr 1fr;
-    grid-template-rows: auto 24px;
-    column-gap: 30px;
-    row-gap: 20px;
-    padding: 20px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .education__container {
-    grid-template-columns: 635px 445px;
-    row-gap: 30px;
-    padding: 30px;
   }
 }

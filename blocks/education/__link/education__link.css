@@ -5,6 +5,7 @@
   text-decoration: none;
   color: var(--dark-blue);
   grid-area: 3 / 1 / 4 / 2;
+  transition: .1s ease;
 }
 
 .education__link:hover {

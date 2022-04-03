@@ -1,6 +1,5 @@
 .education__paragraph {
   max-width: 920px;
-  width: calc(100% - 32px);
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -12,7 +11,6 @@
 
 @media (min-width: 600px) {
   .education__paragraph {
-    width: calc(100% - 78px);
     font-size: 1.8vw;
     line-height: 2.6vw;
     margin: 30px 0 40px;
