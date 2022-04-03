@@ -9,8 +9,7 @@
   grid-column: 1;
   grid-row: 1 / 3;
   justify-self: end;
-  /* цвет подобран на глаз */
-  filter: invert(85%) sepia(25%) saturate(1712%) hue-rotate(185deg) brightness(90%) contrast(101%);;
+  background-color: var(--dark-blue);
 }
 
 .project_extended.project {
