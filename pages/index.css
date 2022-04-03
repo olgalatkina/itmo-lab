@@ -45,6 +45,21 @@
 @import url(../blocks/project/__btn-extend/project__btn-extend.css);
 
 /* EDUCATION */
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__container/education__container.css);
+@import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__paragraph/education__paragraph.css);
+@import url(../blocks/education/__content/education__content.css);
+@import url(../blocks/education/__content/_active/education__content_active.css);
+@import url(../blocks/education/__programs/education__programs.css);
+@import url(../blocks/education/__programs-title/education__programs-title.css);
+@import url(../blocks/education/__list/education__list.css);
+@import url(../blocks/education/__link/education__link.css);
+@import url(../blocks/education/__image/education__image.css);
+@import url(../blocks/education/__toggle/education__toggle.css);
+@import url(../blocks/education/__button/education__button.css);
+@import url(../blocks/education/__button-label/education__button-label.css);
+@import url(../blocks/education/__link-arrow/education__link-arrow.css);
 
 /* PUBLICATIONS */
 
