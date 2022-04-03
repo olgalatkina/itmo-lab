@@ -70,3 +70,7 @@
 @import url(../blocks/footer/__social/footer__social.css);
 @import url(../blocks/footer/__icon/footer__icon.css);
 @import url(../blocks/footer/__developers/footer__developers.css);
+
+/* PARTNERS */
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__container/partners__container.css);

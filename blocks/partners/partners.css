@@ -1,0 +1,7 @@
+.partners {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  color: var(--white);
+  width: 100%;
+}
