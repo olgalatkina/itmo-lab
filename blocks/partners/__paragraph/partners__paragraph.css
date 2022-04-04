@@ -1,5 +1,6 @@
 .partners__paragraph {
   padding-bottom: 30px;
+  max-width: 920px;
   margin: 0;
   font-style: normal;
   font-weight: 400;
@@ -9,5 +10,5 @@
 }
 
 .partners__paragraph:last-of-type{
-  padding-bottom: 0;
+  padding-bottom: 100px;
 }

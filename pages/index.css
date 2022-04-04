@@ -76,3 +76,5 @@
 @import url(../blocks/partners/__container/partners__container.css);
 @import url(../blocks/partners/__paragraph/partners__paragraph.css);
 @import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/__icons/partners__icons.css);
+@import url(../blocks/partners/__icon/partners__icon.css);
