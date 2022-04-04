@@ -1,0 +1,13 @@
+.partners__paragraph {
+  padding-bottom: 30px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+.partners__paragraph:last-of-type{
+  padding-bottom: 0;
+}

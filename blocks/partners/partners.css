@@ -1,7 +1,11 @@
 .partners {
   display: flex;
   justify-content: center;
-  padding: 100px 0;
+  max-width: 1110px;
+  width: calc(100% - 330px);
+  padding: 0;
+  align-items: center;
   color: var(--white);
-  width: 100%;
+
+
 }

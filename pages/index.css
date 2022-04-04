@@ -74,3 +74,5 @@
 /* PARTNERS */
 @import url(../blocks/partners/partners.css);
 @import url(../blocks/partners/__container/partners__container.css);
+@import url(../blocks/partners/__paragraph/partners__paragraph.css);
+@import url(../blocks/partners/__title/partners__title.css);

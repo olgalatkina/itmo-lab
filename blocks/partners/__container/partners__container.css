@@ -1,3 +1,6 @@
 .partners__container{
-  max-width: 1110px;
+  max-width: 920px;
+  display: flex;
+ align-items: center;
+  flex-direction: column;
 }
