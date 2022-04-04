@@ -1,0 +1,6 @@
+.publications-card__info-text {
+  box-sizing: content-box;
+  height: 270px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

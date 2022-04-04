@@ -2,7 +2,7 @@
   height: 160px;
   width: 256px;
   transition: .15s linear;
-  margin: 16px 16px 12px;
+  /*margin: 16px 16px 12px;*/
 }
 
 @media (min-width: 768px) {

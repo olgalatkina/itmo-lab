@@ -3,21 +3,21 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: #FFFFFF;
+  background: var(--white);
   gap: 11px;
   width: 184px;
   height: 56px;
   border-radius: 8px;
+
 }
 
 .tooltip__box::after {
   content: '';
   position: absolute;
-  left: 77px;
+  right: 15px;
   top: 56px;
-  border: 15px solid transparent;
-  border-top: 8px solid white;
-  bottom: -11px;
+  border: 7px solid transparent;
+  border-top: 12px solid var(--white);
 }
 
 

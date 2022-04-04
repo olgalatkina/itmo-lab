@@ -1,14 +1,9 @@
 .card-meta__breadcrumbs {
   margin-right: 16px;
-  display: flex;
-  align-items: center;
-  background-image: url(../../../images/icons/icon_share.svg);
-  fill: #FF2D49;
+  background-image: url(../../../images/icons/icon_share-white.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 22px;
   height: 22px;
 }
-
-

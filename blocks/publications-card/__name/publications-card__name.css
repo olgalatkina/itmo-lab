@@ -1,19 +1,22 @@
 .publications-card__name {
-  margin: 0 16px 4px;
+  margin: 12px 0 4px;
   font-size: 14px;
   line-height: 19px;
-  color: #000D26;
+  color: var(--dark-blue);
   font-weight: 600;
   max-height: 60px;
   max-width: 90%;
   text-overflow: ellipsis;
   overflow: hidden;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 
 @media (min-width: 768px) {
   .publications-card__name {
     font-size: 18px;
     line-height: 30px;
-    margin: 0 20px 4px;
   }
 }
