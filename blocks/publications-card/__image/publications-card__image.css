@@ -2,14 +2,12 @@
   height: 160px;
   width: 256px;
   transition: .15s linear;
-  /*margin: 16px 16px 12px;*/
 }
 
 @media (min-width: 768px) {
   .publications-card__image {
     height: 160px;
     width: 291px;
-    margin: 20px;
   }
 }
 

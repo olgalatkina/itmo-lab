@@ -16,6 +16,7 @@
 
 @media (min-width: 768px) {
   .publications-card__name {
+    margin: 20px 0 4px;
     font-size: 18px;
     line-height: 30px;
   }

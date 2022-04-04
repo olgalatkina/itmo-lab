@@ -23,6 +23,6 @@
   .publications-card__desc {
     font-size: 14px;
     line-height: 19px;
-    min-height: 162px;
+    -webkit-line-clamp: 7;
   }
 }

@@ -6,14 +6,13 @@
   background-color: white;
   position: relative;
   z-index: 1;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px;
   padding: 16px;
 }
 
-@media (min-width: 1440px) {
-  .publications-card {
-    height: 548px;
-    width: 348px;
-    border-radius: 5px;
+@media (min-width: 768px) {
+  .publications-card__info {
+    padding: 20px;
   }
 }
+
