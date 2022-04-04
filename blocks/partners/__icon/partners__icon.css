@@ -1,4 +1,12 @@
 .partners__icon{
-  padding: 0;
+  max-height: 20px;
+}
+
+
+@media (min-width: 1440px) {
+  .partners__icon {
+    max-height: 46px;
+
+  }
 }
 

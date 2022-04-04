@@ -1,12 +1,37 @@
 .partners__title {
-  padding-top: 100px;
-  padding-bottom: 30px;
+  padding-top: 54px;
+  padding-bottom: 20px;
   margin: 0;
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
-  line-height: 68px;
-  text-align: center;
-  letter-spacing: 0.1px;
+  font-size: 16px;
+  line-height: 22px;
   text-transform: uppercase;
 }
+
+
+@media (min-width: 768px) {
+  .partners__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+
+  }
+}
+
+@media (min-width: 1440px) {
+  .partners__title {
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.1px;
+
+  }
+}
+
