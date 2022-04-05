@@ -1,0 +1,30 @@
+.feedback__input {
+  padding: 11px 10px;
+  border-radius: 5px;
+  border: none;
+  color: var(--dark-blue);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  outline: none;
+}
+
+.feedback__input::placeholder {
+  color: var(--emerald);
+}
+
+@media (min-width: 768px) {
+  .feedback__input {
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .feedback__input {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 19px;
+  }
+}

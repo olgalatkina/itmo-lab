@@ -42,6 +42,7 @@
 @import url(../blocks/project/__logo/_type/project__logo_type_sberbank.css);
 @import url(../blocks/project/__description/project__description.css);
 @import url(../blocks/project/__link/project__link.css);
+@import url(../blocks/project/__link/_disabled/project__link_disabled.css);
 @import url(../blocks/project/__btn-extend/project__btn-extend.css);
 
 /* EDUCATION */
@@ -95,6 +96,14 @@
 /* PARTNERS */
 
 /* FEEDBACK */
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__container/feedback__container.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__paragraph/feedback__paragraph.css);
+@import url(../blocks/feedback/__form/feedback__form.css);
+@import url(../blocks/feedback/__input/feedback__input.css);
+@import url(../blocks/feedback/__input/_type/feedback__input_type_message.css);
+@import url(../blocks/feedback/__button/feedback__button.css);
 
 /* FOOTER */
 @import url(../blocks/footer/footer.css);

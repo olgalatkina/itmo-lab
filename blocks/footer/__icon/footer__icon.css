@@ -1,13 +1,16 @@
-/* .footer__icon {
+.footer__icon {
   display: block;
   transition: opacity .3s linear;
-} */
+}
 
-/* .footer__icon:hover {
+.footer__icon:hover,
+.footer__icon:focus {
   opacity: .7;
-} */
+}
 
-.footer__icon {
+/* смена цвета иконки при помощи mask-image  */
+
+/* .footer__icon {
   display: inline-block;
   width: 24px;
   height: 24px;
@@ -23,9 +26,9 @@
 
 .footer__icon:hover {
   background-color: var(--emerald);
-}
+} */
 
-.footer__icon_type_vk {
+/* .footer__icon_type_vk {
   -webkit-mask-image: url(../../../images/icons/social_vk.svg);
   mask-image: url(../../../images/icons/social_vk.svg);
 }
@@ -48,4 +51,4 @@
 .footer__icon_type_youtube {
   -webkit-mask-image: url(../../../images/icons/social_youtube.svg);
   mask-image: url(../../../images/icons/social_youtube.svg);
-}
+} */

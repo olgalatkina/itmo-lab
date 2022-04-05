@@ -1,0 +1,21 @@
+.feedback__form {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 3.2fr 0 1fr;
+  row-gap: 12px;
+}
+
+@media (min-width: 600px) {
+  .feedback__form {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0 1fr;
+    gap: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .feedback__form {
+    column-gap: 29px;
+    row-gap: 20px;
+  }
+}
