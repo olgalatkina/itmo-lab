@@ -3,7 +3,8 @@
   transition: opacity .3s linear;
 }
 
-.footer__icon:hover {
+.footer__icon:hover,
+.footer__icon:focus {
   opacity: .7;
 }
 

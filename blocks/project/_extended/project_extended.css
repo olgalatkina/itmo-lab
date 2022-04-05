@@ -31,6 +31,12 @@
   color: var(--emerald);
 }
 
+.project_extended .project__link_disabled,
+.project_extended .project__link_disabled:hover {
+  color: var(--blue);
+  opacity: .3;
+}
+
 .project_extended .project__btn-extend {
   background-color: var(--emerald);
   background-image: url(../../../images/icons/ico_arrow-right_white.svg);
