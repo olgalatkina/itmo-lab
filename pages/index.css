@@ -42,6 +42,7 @@
 @import url(../blocks/project/__logo/_type/project__logo_type_sberbank.css);
 @import url(../blocks/project/__description/project__description.css);
 @import url(../blocks/project/__link/project__link.css);
+@import url(../blocks/project/__link/_disabled/project__link_disabled.css);
 @import url(../blocks/project/__btn-extend/project__btn-extend.css);
 
 /* EDUCATION */
