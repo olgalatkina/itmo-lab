@@ -5,4 +5,11 @@
   font-size: 14px;
   line-height: 44px;
   margin-left: 16px;
+  transition: .1s linear;
+}
+
+
+.card-meta__text:hover {
+  filter: opacity(.65);
+  transition: .1s linear;
 }

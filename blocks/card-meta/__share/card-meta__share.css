@@ -1,4 +1,4 @@
-.card-meta__breadcrumbs {
+.card-meta__share {
   margin-right: 16px;
   background-image: url(../../../images/icons/icon_share-white.svg);
   background-repeat: no-repeat;
@@ -6,4 +6,10 @@
   background-size: cover;
   width: 22px;
   height: 22px;
+  transition: .1s linear;
+}
+
+.card-meta__share:hover {
+  filter: opacity(.65);
+  transition: .1s linear;
 }

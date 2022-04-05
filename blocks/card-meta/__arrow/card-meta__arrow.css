@@ -6,4 +6,10 @@
   background-image: url(../../../images/icons/ico_arrow-right-white.svg);
   background-repeat: no-repeat;
   cursor: pointer;
+  transition: .1s linear;
+}
+
+.card-meta__arrow:hover {
+  filter: opacity(.65);
+  transition: .1s linear;
 }

@@ -2,4 +2,10 @@
   width: 22px;
   height: 22px;
   border-radius: 3px;
+  transition: .1s linear;
+}
+
+.tooltip__social-icon:hover {
+  filter: opacity(.65);
+  transition: .1s linear;
 }

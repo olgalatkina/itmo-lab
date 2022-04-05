@@ -1,17 +1,11 @@
 .team-card__desc {
-  display: flex;
   font-style: italic;
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
   color: var(--emerald);
-  word-wrap: break-word;
   margin: 0;
-  align-self: center;
   bottom: 0;
   margin-top: 4px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
   text-align: center;
 }
