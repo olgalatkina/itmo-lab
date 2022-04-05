@@ -3,6 +3,14 @@
 }
 
 
+@media (min-width: 768px) {
+  .partners__icon {
+    max-height: 32px;
+
+  }
+}
+
+
 @media (min-width: 1440px) {
   .partners__icon {
     max-height: 46px;

@@ -2,17 +2,23 @@
   list-style-type:none;
   display: grid;
   grid-row-gap: 20px;
-  grid-column-gap: 20px;
-  grid-template-columns: repeat(3, 2fr);
+  grid-column-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
   padding:  50px 0 40px 0 ;
-  margin: 0  16px;
+  margin: 0;
 
 }
 
 
 @media (min-width: 768px) {
   .partners__icons {
-    width: calc(100% - 80px);
+    /*width: calc(100% - 80px);*/
+    grid-row-gap: 35px;
+    grid-column-gap: 35px;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    padding:  70px 0 80px 0 ;
+    margin: 0;
 
   }
 }
