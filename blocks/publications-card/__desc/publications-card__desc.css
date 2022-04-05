@@ -12,6 +12,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .publications-card__desc {
+    margin-bottom: 40px;
+  }
+}
+
 @media (min-width: 768px) {
   .publications-card__desc {
     font-size: 14px;
@@ -26,3 +32,4 @@
     -webkit-line-clamp: 7;
   }
 }
+

@@ -8,8 +8,3 @@
   cursor: pointer;
   transition: .1s linear;
 }
-
-.card-meta__arrow:hover {
-  filter: opacity(.65);
-  transition: .1s linear;
-}
