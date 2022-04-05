@@ -1,22 +1,3 @@
-/* TODO! не прорастают стили, если разнести по разным файлам */
-
-/* .project__logo_type_sberbank {
-  width: 106px;
-  height: 26px;
-  -webkit-mask-image: url(../../../images/partners/sberbank.svg);
-  mask-image: url(../../../images/partners/sberbank.svg);
+.project__logo_type_sberbank {
+  background-image: url(../../../../images/partners/sberbank.svg);
 }
-
-@media (min-width: 768px) {
-  .project__logo_type_sberbank {
-    width: 172px;
-    height: 43px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .project__logo_type_sberbank {
-    width: 194px;
-    height: 48px;
-  }
-} */

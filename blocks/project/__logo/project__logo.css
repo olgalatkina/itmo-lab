@@ -1,44 +1,21 @@
 .project__logo {
-  display: inline-block;
-  -webkit-mask-size: 100% 100%;
-  mask-size: 100% 100%;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  mask-position: center;
-  background-color: var(--white);
-  transition: background-color .3s linear;
-}
-
-.project__logo_type_sberbank {
-  width: 106px;
+  display: block;
+  width: 100%;
   height: 26px;
-  -webkit-mask-image: url(../../../images/partners/sberbank.svg);
-  mask-image: url(../../../images/partners/sberbank.svg);
-}
-
-.project__logo_type_gasprom {
-  width: 60px;
-  height: 26px;
-  -webkit-mask-image: url(../../../images/partners/gazprom.svg);
-  mask-image: url(../../../images/partners/sberbank.svg);
+  background-color: transparent;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 @media (min-width: 768px) {
-  .project__logo_type_sberbank {
-    width: 172px;
+  .project__logo {
     height: 43px;
-  }
-
-  .project__logo_type_gasprom {
-    width: 112px;
-    height: 48px;
   }
 }
 
 @media (min-width: 1440px) {
-  .project__logo_type_sberbank {
-    width: 194px;
+  .project__logo {
     height: 48px;
   }
 }
