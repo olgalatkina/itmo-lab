@@ -173,8 +173,22 @@
       <section id="partners">
 
       </section>
-      <section id="feedback">
-
+      <section id="feedback" class="feedback">
+        <div class="feedback__container">
+          <h2 class="feedback__title">Всегда на&nbsp;связи</h2>
+          <p class="feedback__paragraph">
+            По&nbsp;всем интересующим вас вопросам вы&nbsp;всегда можете обратиться по&nbsp;указанным телефонам,
+            написать на&nbsp;почту или оставитьь свое сообщение через форму обратной связи.
+          </p>
+          <form class="feedback__form">
+            <input type="text" class="feedback__input feedback__input_type_name" placeholder="Имя" minlength="2" maxlength="15" required>
+            <input type="text" class="feedback__input feedback__input_type_surname" placeholder="Фамилия" minlength="2" maxlength="15">
+            <input type="tel" class="feedback__input feedback__input_type_phone" placeholder="Телефон" maxlength="20">
+            <input type="email" class="feedback__input feedback__input_type_email" placeholder="E-mail" maxlength="50" required>
+            <textarea class="feedback__input feedback__input_type_message" placeholder="Сообщение" maxlength="350"></textarea>
+            <button class="feedback__button" type="submit">Отправить</button>
+          </form>
+        </div>
       </section>
     </main>
 

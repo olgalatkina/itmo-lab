@@ -1,0 +1,9 @@
+.feedback__input_type_message {
+  resize: none;
+}
+
+@media (min-width: 600px) {
+  .feedback__input_type_message {
+    grid-area: 1 / 3 / 3 / 4;
+  }
+}

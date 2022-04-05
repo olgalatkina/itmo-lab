@@ -1,0 +1,36 @@
+.feedback__button {
+  width: 100%;
+  padding: 12.5px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  background-color: var(--emerald);
+  color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s linear;
+  grid-row-start: 7;
+}
+
+.feedback__button:hover,
+.feedback__button:focus {
+  color: var(--dark-blue);
+  border-color: var(--dark-blue);
+}
+
+@media (min-width: 600px) {
+  .feedback__button {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+}
+
+@media (min-width: 768px) {
+  .feedback__button {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 7px;
+    border-radius: 10px;
+  }
+}
