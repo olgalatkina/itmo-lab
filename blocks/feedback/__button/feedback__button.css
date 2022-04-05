@@ -14,7 +14,8 @@
   grid-row-start: 7;
 }
 
-.feedback__button:hover {
+.feedback__button:hover,
+.feedback__button:focus {
   color: var(--dark-blue);
   border-color: var(--dark-blue);
 }
