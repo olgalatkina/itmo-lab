@@ -1,0 +1,23 @@
+.team__name {
+  margin: 54px auto 20px;
+  font-size: 16px;
+  line-height: 22px;
+  color: var(--dark-blue);
+  word-wrap: inherit;
+}
+
+@media (min-width: 768px) {
+  .team__name {
+    margin: 60px auto 40px;
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .team__name {
+    margin: 80px auto 30px;
+    font-size: 36px;
+    line-height: 68px;
+  }
+}
