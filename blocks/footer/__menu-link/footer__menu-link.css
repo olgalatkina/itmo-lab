@@ -3,7 +3,8 @@
   color: var(--white);
 }
 
-.footer__menu-link:hover {
+.footer__menu-link:hover,
+.footer__menu-link:focus {
   opacity: 1;
 }
 

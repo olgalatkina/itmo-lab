@@ -8,17 +8,17 @@
 
 @media (min-width: 768px) {
   .footer__social {
-    grid-column: 5 / -1;
+    grid-column: 4 / 5;
     grid-row: 4 / 5;
     padding-top: 0;
     align-self: end;
+    /* исключительно для визуального выравнивания по базовой линии шрифта */
+    margin-bottom: 4px;
   }
 }
 
 @media (min-width: 1440px) {
   .footer__social {
-    grid-column: 4 / 5;
     grid-row: 2 / 3;
-    align-self: end;
   }
 }

@@ -1,0 +1,10 @@
+.card-meta__link-more {
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card-meta__link-more:hover {
+  filter: opacity(.65);
+  transition: .1s linear;
+}

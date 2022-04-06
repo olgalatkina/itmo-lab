@@ -1,4 +1,7 @@
 .footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
   width: 100%;
   font-style: normal;
   font-weight: 400;
@@ -9,8 +12,15 @@
   background-color: var(--blue);
 }
 
+@media (min-width: 768px) {
+  .footer {
+    padding: 60px 0;
+  }
+}
+
 @media (min-width: 1440px) {
   .footer {
+    padding: 80px 0;
     font-size: 14px;
     line-height: 19px;
     letter-spacing: normal;

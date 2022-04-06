@@ -1,0 +1,73 @@
+.project_extended {
+  grid-column: span 2;
+  color: var(--blue);
+  background-color: var(--light-blue);
+  background-size: auto 100%;
+}
+
+.project_extended .project__logo {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  justify-self: end;
+  background-position: right top;
+}
+
+.project_extended .project__logo_type_sberbank {
+  background-image: url(../../../images/partners/sberbank.svg);
+}
+
+.project_extended .project__logo_type_gasprom {
+  background-image: url(../../../images/partners/gazprom_blue.svg);
+}
+
+.project_extended.project {
+  grid-template-rows: 34px 52px auto;
+}
+
+.project_extended .project__description {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  max-width: 67%;
+}
+
+.project_extended .project__link {
+  display: block;
+  color: var(--blue);
+}
+
+.project_extended .project__link:hover {
+  color: var(--emerald);
+}
+
+.project_extended .project__link_disabled,
+.project_extended .project__link_disabled:hover {
+  color: var(--blue);
+  opacity: .3;
+}
+
+.project_extended .project__btn-extend {
+  background-color: var(--emerald);
+  background-image: url(../../../images/icons/ico_arrow-right_white.svg);
+  transform: rotate(180deg);
+}
+
+.project_extended .project__btn-extend:hover {
+  background-color: var(--white);
+  background-image: url(../../../images/icons/ico_arrow-right.svg);
+}
+
+@media (min-width: 768px) {
+  .project_extended.project {
+    grid-template-rows: 60px 80px auto;
+  }
+
+  .project_extended .project__description {
+    max-width: 58%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .project_extended.project {
+    grid-template-rows: 68px 76px auto;
+  }
+}

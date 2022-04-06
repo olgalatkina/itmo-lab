@@ -1,0 +1,40 @@
+.education__link {
+  width: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+  color: var(--dark-blue);
+  grid-area: 3 / 1 / 4 / 2;
+  transition: color .3s linear;
+}
+
+.education__link:hover,
+.education__link:focus {
+  color: var(--emerald);
+}
+
+.education__link:hover .education__link-arrow {
+  background-image: url('../../../images/icons/ico_arrow-right.svg');
+}
+
+
+@media (min-width: 600px) {
+  .education__link {
+    width: 115px;
+    grid-area: 2 / 1 / 3 / 2;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .education__link {
+    width: 138px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

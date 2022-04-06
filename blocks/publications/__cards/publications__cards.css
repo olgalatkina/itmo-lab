@@ -1,0 +1,29 @@
+.publications__cards {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin: 0 auto 0;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+@media (max-width: 320px) {
+  .publications__cards {
+    gap: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .publications__cards {
+    width: 690px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publications__cards {
+    width: 1110px;
+  }
+}
+

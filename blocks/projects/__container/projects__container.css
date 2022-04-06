@@ -1,0 +1,16 @@
+.projects__container {
+  max-width: 1110px;
+  width: calc(100% - 32px);
+}
+
+@media (min-width: 768px) {
+  .projects__container {
+    width: calc(100% - 78px);
+  }
+}
+
+@media (min-width: 1440px) {
+  .projects__container {
+    width: calc(100% - 330px);
+  }
+}
