@@ -7,6 +7,8 @@
   background: #FFFFFF;
   border-radius: 5.45566px;
   box-shadow: 0px 2.35349px 11.7674px rgba(1, 54, 157, 0.15);
+  transition: .2s linear;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
@@ -14,6 +16,20 @@
     width: 150px;
     min-height: 242px;
     /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%); */
+  }
+  .research__card:hover {
+    background: #009FAC;
+    margin-bottom: 10px;
+    margin-top: -10px;
+  }
+  .research__card:hover .research__card-title {
+    color: #FFFFFF;
+  }
+  .research__card:hover .research__card-text {
+    color: #FFFFFF;
+  }
+  .research__card:hover .research__card-button {
+    color: #009FAC;
   }
 }
 
