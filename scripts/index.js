@@ -3,10 +3,9 @@ import projectsData from "./mock/mock-projects.js";
 import publicationsData from "./mock/mock-publications.js";
 import teamData from "./mock/mock-team.js";
 import partnersData from "./mock/mock-partners.js";
-import { sayHi } from './utils.js';
+import { renderElementsToDOM } from './utils.js';
 
-console.log('Hello World!');
-sayHi();
+console.log(renderElementsToDOM);
 
 console.log(aboutData);
 console.log(projectsData);
