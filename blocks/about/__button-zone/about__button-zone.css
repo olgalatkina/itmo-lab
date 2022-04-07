@@ -1,0 +1,13 @@
+.about__button-zone {
+  display: none;
+}
+
+@media (min-width: 1270px) {
+  .about__button-zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+  }
+}
+

@@ -19,6 +19,11 @@
 @import url(../blocks/about/__container/about__container.css);
 @import url(../blocks/about/__title/about__title.css);
 @import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__cards-zone/about__cards-zone.css);
+@import url(../blocks/about/__button-zone/about__button-zone.css);
+@import url(../blocks/about/__nav-button/about__nav-button.css);
+@import url(../blocks/about/__nav-button/_left/about__nav-button_left.css);
+@import url(../blocks/about/__nav-button/_right/about__nav-button_right.css);
 @import url(../blocks/about/__slider/about__slider.css);
 
 @import url(../blocks/about-card/about-card.css);

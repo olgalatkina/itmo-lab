@@ -14,7 +14,7 @@
   .about-card {
     min-width: 330px;
     max-height: 330px;
-    padding: 20px;
+    padding: 20px 20px 30px;
   }
 }
 
