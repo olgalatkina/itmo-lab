@@ -1,0 +1,36 @@
+.projects__btn-gallery {
+  display: block;
+  width: 48px;
+  height: 32px;
+  margin: 0 auto;
+  background-color: transparent;
+  background-image: url(../../../images/icons/ico_chevron-down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 48px 32px;
+  border: none;
+  cursor: pointer;
+  transition: all .3s linear;
+}
+
+.projects__btn-gallery:hover,
+.projects__btn-gallery:focus {
+  opacity: .7;
+  transform: scale(1.1);
+}
+
+@media (min-width: 768px) {
+  .projects__btn-gallery {
+    width: 60px;
+    height: 40px;
+    background-size: 60px 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .projects__btn-gallery {
+    width: 72px;
+    height: 48px;
+    background-size: 72px 48px;
+  }
+}

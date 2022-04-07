@@ -1,0 +1,33 @@
+.education__toggle {
+  display: flex;
+  width: 288px;
+  margin: 15px 0 0;
+  border: 1px solid var(--light-blue);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 19px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .education__toggle {
+    width: 450px;
+    margin: 30px 0 0;
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .education__toggle {
+    width: 540px;
+    margin: 35px 0 0;
+    font-size: 18px;
+    line-height: 30px
+  }
+}

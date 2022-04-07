@@ -1,0 +1,6 @@
+.publications {
+  background-color: var(--light-blue);
+  width: 100%;
+  transition: all .5s linear;
+  position: relative;
+}

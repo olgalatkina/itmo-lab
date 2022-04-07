@@ -1,0 +1,29 @@
+.publications-card__autors {
+  margin: 0 0 10px;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--emerald);
+  font-weight: 400;
+  font-style: italic;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .publications-card__autors {
+    margin: 0 0 12px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publications-card__autors {
+    margin: 0 0 20px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

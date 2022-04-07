@@ -1,0 +1,10 @@
+.card-meta__arrow {
+  width: 22px;
+  height: 25px;
+  align-self: center;
+  margin-left: 11px;
+  background-image: url(../../../images/icons/ico_arrow-right-white.svg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: .1s linear;
+}
