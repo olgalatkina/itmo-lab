@@ -6,6 +6,8 @@ import partnersData from "./mock/mock-partners.js";
 import { renderElementsToDOM } from './utils.js';
 import { generateProjectCard } from './projects/projects.js';
 
+import { generatePublicationsCard } from './publications/publications.js';
+
 // PROJECTS
 const projects = document.querySelector('.projects');
 const projectsContainerElement = projects.querySelector('.projects__gallery');
@@ -14,6 +16,12 @@ renderElementsToDOM(projectsData, projectsContainerElement, generateProjectCard)
 openGalleryBtn.addEventListener('click', () => {
   projectsContainerElement.classList.toggle('projects__gallery_opened');
 });
+
+// PUBLICATIONS
+const publications = document.querySelector('.publications');
+const publicationsContainerElement = publications.querySelector('.publications__cards');
+renderElementsToDOM(publicationsData, publicationsContainerElement, generatePublicationsCard);
+
 
 console.log(aboutData);
 console.log(projectsData);
