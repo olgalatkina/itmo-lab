@@ -8,6 +8,7 @@
   /*grid-auto-flow: dense;*/
   max-height: 288px;
   overflow: hidden;
+  background-color: var(--blue);
 }
 
 @media (min-width: 768px) {

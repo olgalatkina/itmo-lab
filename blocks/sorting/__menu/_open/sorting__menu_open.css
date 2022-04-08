@@ -2,3 +2,9 @@
   height: 192px;
   visibility: visible;
 }
+
+@media (min-width: 768px) {
+  .sorting__menu_open {
+    height: auto;
+  }
+}
