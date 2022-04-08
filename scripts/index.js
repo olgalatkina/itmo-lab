@@ -6,6 +6,7 @@ import partnersData from "./mock/mock-partners.js";
 import { renderElementsToDOM } from './utils.js';
 import { generateProjectCard } from './projects/projects.js';
 
+// PROJECTS
 const projects = document.querySelector('.projects');
 const projectsContainerElement = projects.querySelector('.projects__gallery');
 const openGalleryBtn = projects.querySelector('.projects__btn-gallery');
