@@ -15,8 +15,7 @@
   transition: background-color .3s linear;
 }
 
-.project__btn-extend:hover,
-.project__btn-extend:focus {
+.project__btn-extend:hover {
   background-color: var(--emerald);
   background-image: url(../../../images/icons/ico_arrow-right_white.svg);
   box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);

@@ -1,0 +1,7 @@
+.about__cards-zone {
+  display: flex;
+  max-width: 1262px;
+  width: 100%;
+  align-self: center;
+  justify-content: space-between;
+}
