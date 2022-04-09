@@ -1,5 +1,7 @@
 .partners__li{
   padding: 0;
-
-
+}
+.partners__li:hover{
+  opacity: .7;
+  transition: opacity 0.7s ease;
 }

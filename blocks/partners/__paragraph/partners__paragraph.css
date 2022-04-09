@@ -6,12 +6,11 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-
 }
-.partners__paragraph:last-of-type{
+
+.partners__paragraph:last-of-type {
   padding: 0;
 }
-
 
 
 @media (min-width: 768px) {
@@ -21,7 +20,6 @@
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.1px;
-
   }
 }
 
@@ -31,8 +29,8 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    letter-spacing: 0.1px;
   }
+
   .partners__paragraph:last-of-type {
     padding-bottom: 100px;
   }

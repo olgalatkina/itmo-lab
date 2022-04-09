@@ -1,16 +1,14 @@
-.partners__container{
+.partners__container {
   max-width: 1110px;
   width: calc(100% - 32px);
   display: flex;
- align-items: center;
+  align-items: center;
   flex-direction: column;
 }
-
 
 @media (min-width: 768px) {
   .partners__container {
     width: calc(100% - 80px);
-
   }
 }
 
