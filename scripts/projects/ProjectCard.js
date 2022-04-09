@@ -30,7 +30,7 @@ export default class ProjectCard {
     this._element.classList.add(`project_type_${this._data.type}`);
 
     const logo = this._element.querySelector('.project__logo');
-    logo.style.backgroundImage = `url(../../images/partners/${this._data.image})`;
+    logo.classList.add(`project__logo_name_${this._data.title}`);
 
     const description = this._element.querySelector('.project__description');
     description.textContent = this._data.description;
