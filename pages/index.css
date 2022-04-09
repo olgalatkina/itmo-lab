@@ -27,6 +27,7 @@
 @import url(../blocks/sorting/__btn-header/sorting__btn-header.css);
 @import url(../blocks/sorting/__btn-header/_rotate/sorting__btn-header_rotate.css);
 @import url(../blocks/sorting/__menu/sorting__menu.css);
+@import url(../blocks/sorting/__menu/_open/sorting__menu_open.css);
 @import url(../blocks/sorting/__btn-menu/sorting__btn-menu.css);
 @import url(../blocks/sorting/__btn-menu/_active/sorting__btn-menu_active.css);
 @import url(../blocks/projects/__gallery/projects__gallery.css);
