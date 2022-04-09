@@ -18,6 +18,21 @@ export class PublicationsCard {
     this._element.addEventListener('mouseleave', this._hideToolTip);
   }
 
+  _shareSocials() {
+    this._shareSocialsVk = this._element.querySelector('.tooltip_social-vk');
+    this._shareSocialsTg = this._element.querySelector('.tooltip_social-tg');
+
+    this._params = `scrollbars=no,resizable=no,status=no,location=no,toolbar=no,menubar=no,width=0,height=0,left=-1000,top=-1000`
+
+    this._shareSocialsVk.addEventListener('click', () => {
+      window.open(`https://vk.com/share.php?url=${this._data.link}`, this._params)
+    })
+
+    this._shareSocialsTg.addEventListener('click', () => {
+      window.open(`https://telegram.me/share/url?url=${this._data.link}`, this._params)
+    })
+  }
+
   _getElement() {
     this._element = document
       .querySelector(this._selector)
@@ -29,6 +44,7 @@ export class PublicationsCard {
   generate() {
     this._getElement();
     this._setEventListeners();
+    this._shareSocials();
 
     this._imageCard = this._element.querySelector('.publications-card__image');
     this._imageCard.src = `./images/publication/${this._data.image}`;
