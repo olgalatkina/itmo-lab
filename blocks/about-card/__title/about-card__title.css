@@ -1,0 +1,26 @@
+.about-card__title {
+  color: var(--blue);
+  margin: 8px 0 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  transition: color 0.3s;
+}
+
+.about-card__title-link .about-card__title:hover{
+  color: var(--emerald);
+}
+
+
+@media (min-width: 768px) {
+  .about-card__title {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+}

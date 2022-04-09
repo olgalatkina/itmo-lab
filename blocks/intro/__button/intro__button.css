@@ -10,11 +10,13 @@
   width: 288px;
   border-radius: 5px;
   cursor: pointer;
+
+  transition: color 0.3s, border-color 0.3s;
 }
 
 .intro__button:hover, .intro__button:active, .intro__button:focus {
-  color: var(--light-blue);
-  border-color: var(--light-blue);
+  color: var(--emerald);
+  border-color: var(--emerald);
 }
 
 @media (min-width: 600px) {
