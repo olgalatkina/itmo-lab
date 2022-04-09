@@ -1,3 +1,4 @@
+// ------- ИПОРТЫ -------
 import aboutData from "./mock/mock-about.js";
 import projectsData from "./mock/mock-projects.js";
 import publicationsData from "./mock/mock-publications.js";
@@ -5,6 +6,15 @@ import teamData from "./mock/mock-team.js";
 import partnersData from "./mock/mock-partners.js";
 import { renderElementsToDOM } from './utils.js';
 import { generateProjectCard, sortData, activateProjectsMenuItem, extendFifthCard } from './projects/projects.js';
+
+// ------- ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ -------
+// MENU
+
+// INTRO
+
+// ABOUT
+
+//RESEARCH
 
 // PROJECTS
 const projects = document.querySelector('.projects');
@@ -16,6 +26,24 @@ const menuBtns = projectsMenu.querySelectorAll('.sorting__btn-menu');
 const projectsCards = projects.getElementsByClassName('project');
 const openGalleryBtn = projects.querySelector('.projects__btn-gallery');
 
+// EDUCATION
+
+// PUBLICATIONS
+
+// TEAM
+
+// PARTNERS
+
+// ------- КОД -------
+// MENU
+
+// INTRO
+
+// ABOUT
+
+//RESEARCH
+
+// PROJECTS
 renderElementsToDOM(projectsData, projectsContainerElement, generateProjectCard);
 extendFifthCard(projectsData, projectsCards);
 openGalleryBtn.addEventListener('click', () => {
@@ -38,8 +66,10 @@ const handlerProjectsMenuClick = (evt) => {
 projectsMenu.addEventListener('click', handlerProjectsMenuClick);
 sortingHeaderBtn.addEventListener('click', toggleOpenSortingMenu);
 
-// console.log(aboutData);
-// console.log(projectsData);
-// console.log(publicationsData);
-// console.log(teamData);
-// console.log(partnersData);
+// EDUCATION
+
+// PUBLICATIONS
+
+// TEAM
+
+// PARTNERS
