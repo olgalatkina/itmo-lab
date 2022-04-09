@@ -4,7 +4,7 @@ const generateProjectCard = (card) => new ProjectCard(card, '#projects-template'
 
 const sortData = (data, key = 'all') => {
   if (key === 'all') return data;
-  return data.filter((card) => card.type.includes(key));
+  return data.filter((card) => card.projects.includes(key));
 };
 
 const activateProjectsMenuItem = (menuItems, menuItemElement) => {

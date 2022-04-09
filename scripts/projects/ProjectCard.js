@@ -23,18 +23,11 @@ export default class ProjectCard {
     sizeButton.addEventListener('click', this._toggleSize);
   }
 
-  _addClasses() {
-    if (this._data.title === 'sberbank') {
-      this._element.classList.add('project_type_finance');
-    } else {
-      this._element.classList.add('project_type_industry');
-    }
-  }
-
   generate() {
     this._getElement();
     this._setEventListeners();
-    this._addClasses();
+
+    this._element.classList.add(`project_type_${this._data.type}`);
 
     const logo = this._element.querySelector('.project__logo');
     logo.style.backgroundImage = `url(../../images/partners/${this._data.image})`;
