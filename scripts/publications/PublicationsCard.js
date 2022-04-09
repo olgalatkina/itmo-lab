@@ -14,7 +14,6 @@ export class PublicationsCard {
 
   _setEventListeners() {
     this._shareCard = this._element.querySelector('.card-meta__share');
-    this._tooltip = this._element.querySelector('.tooltip');
     this._shareCard.addEventListener('click', this._showToolTip);
     this._element.addEventListener('mouseleave', this._hideToolTip);
   }
@@ -29,16 +28,17 @@ export class PublicationsCard {
 
   generate() {
     this._getElement();
+    this._setEventListeners();
 
     this._imageCard = this._element.querySelector('.publications-card__image');
     this._imageCard.src = `./images/publication/${this._data.image}`;
+    this._imageCard.alt = this._data.title;
 
     this._nameCard = this._element.querySelector('.publications-card__name');
     this._nameCard.textContent = this._data.title;
-    this._imageCard.alt = this._data.title;
 
     this._autorsCard = this._element.querySelector('.publications-card__autors');
-    this._autorsCard.textContent = this._data.autors;
+    this._autorsCard.textContent = this._data.autors.join(', ');
 
     this._descCard = this._element.querySelector('.publications-card__desc');
     this._descCard.textContent = this._data.description;
@@ -46,9 +46,8 @@ export class PublicationsCard {
     this._linkCard = this._element.querySelector('.card-meta__link-more');
     this._linkCard.href = this._data.link;
 
-    this._setEventListeners();
+    this._tooltip = this._element.querySelector('.tooltip');
 
     return this._element;
   }
-
 }
