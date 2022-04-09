@@ -9,13 +9,6 @@
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  transition: background-color .3s linear;
+  transition: background-image .3s linear;
+  box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
 }
-
-/* Посмотреть: лучше с или без такого эффекта */
-
-/* .about__nav-button:hover {
-  background-color: var(--emerald);
-  box-shadow: 0px 4px 20px rgba(1, 54, 157, 0.15);
-  border: 1px solid var(--white);
-} */

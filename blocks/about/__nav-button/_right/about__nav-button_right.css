@@ -1,3 +1,7 @@
 .about__nav-button_right {
   background-image: url(../../../../images/icons/ico_arrow-right-white.svg);
 }
+
+.about__nav-button_right:hover {
+  background-image: url(../../../../images/icons/ico_arrow-right.svg);
+}

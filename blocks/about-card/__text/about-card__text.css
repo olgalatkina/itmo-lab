@@ -10,7 +10,7 @@
   -webkit-box-orient: vertical;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .about-card__text {
     font-size: 14px;
     line-height: 19px;

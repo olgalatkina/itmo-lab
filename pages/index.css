@@ -29,6 +29,7 @@
 @import url(../blocks/about-card/about-card.css);
 @import url(../blocks/about-card/__icon/about-card__icon.css);
 @import url(../blocks/about-card/__date/about-card__date.css);
+@import url(../blocks/about-card/__title-link/about-card__title-link.css);
 @import url(../blocks/about-card/__title/about-card__title.css);
 @import url(../blocks/about-card/__text/about-card__text.css);
 
