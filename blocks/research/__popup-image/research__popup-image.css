@@ -1,7 +1,7 @@
 .research__popup-image {
   width: 268px;
   height: 160px;
-  background-image: url(../../../images/lab/image\ 43-w320px.png);
+  background-image: url(../../../images/lab/image\ 43.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -12,7 +12,6 @@
   .research__popup-image {
     width: 199px;
     height: 414px;
-    background-image: url(../../../images/lab/image\ 43-w768.png);
     position: absolute;
     margin-left: 20px;
   }
@@ -22,6 +21,5 @@
   .research__popup-image {
     width: 400px;
     height: 678px;
-    background-image: url(../../../images/lab/image\ 43-w1440.png);
   }
 }

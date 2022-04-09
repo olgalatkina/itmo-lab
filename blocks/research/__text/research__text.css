@@ -4,13 +4,15 @@
   font-size: 12px;
   line-height: 16px;
   color: #000D26;
-  max-width: 288px;
+  max-width: 100%;
   margin: 0;
   padding-top: 20px;
+  text-align: justify;
 }
 
 @media screen and (min-width: 768px) {
   .research__text {
+    font-weight: 300;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.1px;
@@ -21,7 +23,7 @@
 @media screen and (min-width: 1440px) {
   .research__text {
     font-size: 18px;
-    line-height: 30px;
+    line-height: 26px;
     max-width: 540px;
   }
 }

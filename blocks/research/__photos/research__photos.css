@@ -7,6 +7,6 @@
 @media screen and (min-width: 1440px) {
   .research__photos {
     flex-direction: row-reverse;
-    align-items: center;
+    align-items: flex-start;
   }
 }

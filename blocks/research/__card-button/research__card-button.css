@@ -12,6 +12,8 @@
   width: 120px;
   height: 32px;
   background: #FFFFFF;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .research__card-button:hover {
