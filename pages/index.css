@@ -15,6 +15,24 @@
 @import url(../blocks/intro/__button/intro__button.css);
 
 /* ABOUT */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__cards-zone/about__cards-zone.css);
+@import url(../blocks/about/__button-zone/about__button-zone.css);
+@import url(../blocks/about/__nav-button/about__nav-button.css);
+@import url(../blocks/about/__nav-button/_left/about__nav-button_left.css);
+@import url(../blocks/about/__nav-button/_right/about__nav-button_right.css);
+@import url(../blocks/about/__slider/about__slider.css);
+
+@import url(../blocks/about-card/about-card.css);
+@import url(../blocks/about-card/__icon/about-card__icon.css);
+@import url(../blocks/about-card/__date/about-card__date.css);
+@import url(../blocks/about-card/__title-link/about-card__title-link.css);
+@import url(../blocks/about-card/__title/about-card__title.css);
+@import url(../blocks/about-card/__text/about-card__text.css);
+
 /* RESEACH */
 
 /* PROJECTS */

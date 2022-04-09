@@ -1,0 +1,13 @@
+.about-card__date {
+  color: var(--emerald);
+  font-style: italic;
+  font-size: 12px;
+  line-height: 17.4px;
+}
+
+@media (min-width: 768px) {
+  .about-card__date {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
