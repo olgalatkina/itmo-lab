@@ -22,9 +22,9 @@ const projectsContainerElement = projects.querySelector('.projects__gallery');
 const sortingTitle = projects.querySelector('.sorting__title');
 const sortingHeaderBtn = projects.querySelector('.sorting__btn-header');
 const projectsMenu = projects.querySelector('.sorting__menu');
-const menuBtns = projectsMenu.querySelectorAll('.sorting__btn-menu');
+const projectsMenuBtns = projectsMenu.querySelectorAll('.sorting__btn-menu');
 const projectsCards = projects.getElementsByClassName('project');
-const openGalleryBtn = projects.querySelector('.projects__btn-gallery');
+const openProjectsGalleryBtn = projects.querySelector('.projects__btn-gallery');
 
 // EDUCATION
 
@@ -46,7 +46,7 @@ const openGalleryBtn = projects.querySelector('.projects__btn-gallery');
 // PROJECTS
 renderElementsToDOM(projectsData, projectsContainerElement, generateProjectCard);
 extendFifthCard(projectsData, projectsCards);
-openGalleryBtn.addEventListener('click', () => {
+openProjectsGalleryBtn.addEventListener('click', () => {
   projectsContainerElement.classList.toggle('projects__gallery_opened');
 });
 const toggleOpenSortingMenu = () => {
@@ -55,7 +55,7 @@ const toggleOpenSortingMenu = () => {
 };
 const handlerProjectsMenuClick = (evt) => {
   const menuItemName = evt.target.id;
-  activateProjectsMenuItem(menuBtns, evt.target);
+  activateProjectsMenuItem(projectsMenuBtns, evt.target);
   sortingTitle.textContent = evt.target.textContent;
   toggleOpenSortingMenu();
   projectsContainerElement.textContent = '';
