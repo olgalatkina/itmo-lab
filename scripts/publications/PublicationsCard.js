@@ -2,7 +2,6 @@ export class PublicationsCard {
   constructor(data, selector) {
     this._data = data;
     this._selector = selector;
-
   }
 
   _showToolTip = () => {
