@@ -1,4 +1,7 @@
 .card-meta__share {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
   margin-right: 16px;
   background-image: url(../../../images/icons/icon_share-white.svg);
   background-repeat: no-repeat;
