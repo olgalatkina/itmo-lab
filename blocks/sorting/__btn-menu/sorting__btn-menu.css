@@ -16,17 +16,17 @@
   opacity: .8;
 }
 
-.sorting__btn-menu:hover,
-.sorting__btn-menu:focus {
-  box-shadow: inset 0 -4px 0 0 var(--emerald);
-}
-
 @media (min-width: 768px) {
   .sorting__btn-menu {
     font-size: 14px;
     line-height: 19px;
     opacity: 1;
     box-shadow: none;
+  }
+
+  .sorting__btn-menu:hover,
+  .sorting__btn-menu:focus {
+    box-shadow: inset 0 -4px 0 0 var(--emerald);
   }
 }
 

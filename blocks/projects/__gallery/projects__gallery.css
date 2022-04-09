@@ -5,9 +5,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 8px;
-  grid-auto-flow: dense;
+  /*grid-auto-flow: dense;*/
   max-height: 288px;
   overflow: hidden;
+  background-color: var(--blue);
 }
 
 @media (min-width: 768px) {

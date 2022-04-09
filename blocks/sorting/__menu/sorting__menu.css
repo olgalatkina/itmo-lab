@@ -4,7 +4,7 @@
   list-style: none;
   height: 0;
   visibility: collapse;
-  transition: height .5s linear;
+  transition: all .5s linear;
 }
 
 @media (min-width: 768px) {
