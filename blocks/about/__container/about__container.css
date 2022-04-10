@@ -1,0 +1,9 @@
+.about__container {
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 70px;
+  box-sizing: border-box;
+}

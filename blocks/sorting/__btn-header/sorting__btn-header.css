@@ -7,4 +7,5 @@
   background-position: center;
   border: none;
   cursor: pointer;
+  transition: transform .3s linear;
 }
