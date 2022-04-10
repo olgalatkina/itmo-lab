@@ -1,6 +1,0 @@
-.nav__sublist-area_type_education {
-  opacity: 0;
-  height: 0px;
-  pointer-events: none;
-  transition: height 0.3s, opacity 0.3s;
-}

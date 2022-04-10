@@ -7,3 +7,15 @@
   pointer-events: all;
   transition: opacity 0.3s, visibility 0.3s;
 }
+
+@media (min-width: 1000px) {
+  .nav {
+    width: 100%;
+    grid-row: 1;
+    grid-column: 2;
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+  }
+}

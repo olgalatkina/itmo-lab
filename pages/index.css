@@ -19,7 +19,7 @@
 @import url(../blocks/nav/__label/nav__label.css);
 @import url(../blocks/nav/__toggle/nav__toggle.css);
 @import url(../blocks/nav/__toggle/_type/_education/nav__tiggle_type_education.css);
-@import url(../blocks/nav/__sublist-area/_type/_education/nav__sublist-area_type_education.css);
+@import url(../blocks/nav/__sublist-area/nav__sublist-area.css);
 @import url(../blocks/nav/__sublist/nav__sublist.css);
 @import url(../blocks/nav/__subitem/nav__subitem.css);
 @import url(../blocks/nav/__sublink/nav__sublink.css);

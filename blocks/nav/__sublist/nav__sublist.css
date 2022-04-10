@@ -1,3 +1,17 @@
 .nav__sublist {
   padding: 0;
+  opacity: 0;
+  height: 0px;
+  pointer-events: none;
+  transition: height 0.3s, opacity 0.3s;
+}
+
+@media (min-width: 1000px) {
+  .nav__sublist {
+    background-color: var(--dark-blue);
+    display: none;
+    position: absolute;
+    top: 57px;
+    left: 0;
+  }
 }

@@ -3,10 +3,25 @@
   grid-row: 1;
   background-color: var(--dark-blue);
   pointer-events: all;
-  padding: 10px 30px 10px 16px;
+  padding-left: 16px;
   z-index: 2;
   width: 24px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+@media (min-width: 600px) {
+  .header__button-label {
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header__button-label {
+    display: none;
+  }
 }
 
 .header__button-label::before {

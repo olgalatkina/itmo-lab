@@ -2,8 +2,18 @@
   list-style: none;
   font-size: 12px;
   line-height: 20px;
+  transition: background-color 0.3s;
 }
 
 .nav__subitem:hover {
   background-color: var(--blue);
+}
+
+@media (min-width: 1000px) {
+  .nav__subitem {
+    font-size: 14px;
+  }
+  .nav__subitem:hover {
+    background-color: var(--emerald);
+  }
 }

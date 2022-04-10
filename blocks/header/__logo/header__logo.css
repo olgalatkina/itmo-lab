@@ -2,3 +2,17 @@
   width: 71px;
   height: 24px;
 }
+
+@media (min-width: 600px) {
+  .header__logo {
+    width: 95px;
+    height: 32px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header__logo {
+    width: 150px;
+    height: 54px;
+  }
+}

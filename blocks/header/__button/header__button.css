@@ -5,8 +5,7 @@
 
 .header__button:checked ~ .header__button-label {
   grid-column: 2;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-left: 0;
 }
 
 .header__button:checked ~ .header__button-label::before {
