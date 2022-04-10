@@ -23,7 +23,7 @@
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1024px) {
   .partners__paragraph {
     font-style: normal;
     font-weight: 400;

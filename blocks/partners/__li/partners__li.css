@@ -1,7 +1,8 @@
 .partners__li{
   padding: 0;
+  transition: opacity 0.3s linear;
 }
 .partners__li:hover{
   opacity: .7;
-  transition: opacity 0.7s ease;
+
 }
