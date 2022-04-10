@@ -76,8 +76,8 @@
 @import url(../blocks/project/_is-change-order/project_is-change-order.css);
 @import url(../blocks/project/_extended/project_extended.css);
 @import url(../blocks/project/__logo/project__logo.css);
-@import url(../blocks/project/__logo/_type/project__logo_type_gazprom.css);
-@import url(../blocks/project/__logo/_type/project__logo_type_sberbank.css);
+@import url(../blocks/project/__logo/_name/project__logo_name_gazprom.css);
+@import url(../blocks/project/__logo/_name/project__logo_name_sberbank.css);
 @import url(../blocks/project/__description/project__description.css);
 @import url(../blocks/project/__link/project__link.css);
 @import url(../blocks/project/__link/_disabled/project__link_disabled.css);
@@ -120,6 +120,7 @@
 @import url(../blocks/tooltip/tooltip.css);
 @import url(../blocks/tooltip/_active/tooltip_active.css);
 @import url(../blocks/tooltip/__box/tooltip__box.css);
+@import url(../blocks/tooltip/__social-btn/tooltip__social-btn.css);
 @import url(../blocks/tooltip/__social-icon/tooltip__social-icon.css);
 /* TEAM */
 @import url(../blocks/team/team.css);

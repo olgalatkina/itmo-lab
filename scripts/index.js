@@ -6,7 +6,7 @@ import teamData from "./mock/mock-team.js";
 import partnersData from "./mock/mock-partners.js";
 import { renderElementsToDOM } from './utils.js';
 import { generateProjectCard, sortData, activateProjectsMenuItem, extendFifthCard } from './projects/projects.js';
-
+import { generatePublicationsCard } from './publications/publications.js';
 // ------- ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ -------
 // MENU
 
@@ -29,6 +29,8 @@ const openProjectsGalleryBtn = projects.querySelector('.projects__btn-gallery');
 // EDUCATION
 
 // PUBLICATIONS
+const publications = document.querySelector('.publications');
+const publicationsContainerElement = publications.querySelector('.publications__cards');
 
 // TEAM
 
@@ -69,7 +71,7 @@ sortingHeaderBtn.addEventListener('click', toggleOpenSortingMenu);
 // EDUCATION
 
 // PUBLICATIONS
-
+renderElementsToDOM(publicationsData, publicationsContainerElement, generatePublicationsCard);
 // TEAM
 
 // PARTNERS
