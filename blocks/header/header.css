@@ -1,0 +1,16 @@
+.header {
+  color: white;
+
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  gap: 0;
+  width: 100%;
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: 242px 78px 1fr;
+  grid-template-rows: auto;
+
+  pointer-events: none;
+}

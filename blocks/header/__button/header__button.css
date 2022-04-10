@@ -1,0 +1,39 @@
+.header__button{
+  display: none;
+  position: absolute;
+}
+
+.header__button:checked ~ .header__button-label {
+  grid-column: 2;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.header__button:checked ~ .header__button-label::before {
+  background-image: url(../../../images/icons/ico_close.svg);
+  width: 32px;
+  height: 32px;
+}
+
+.header__button:checked ~ .header__button-label:hover::before {
+  background-image: url(../../../images/icons/ico_close_emerald.svg);
+  transition: background-image 0.3s;
+}
+
+.header__button:checked ~ .nav {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s, visibility 0s;
+}
+
+.header__button:checked ~ .header__dark-area {
+  display: block;
+}
+
+.header__button:checked ~ .header__logo-area {
+  justify-content: flex-start;
+}
+
+.header__button:checked ~ .header__empty-area {
+  display: block;
+}

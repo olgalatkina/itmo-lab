@@ -1,0 +1,9 @@
+.nav__subitem {
+  list-style: none;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.nav__subitem:hover {
+  background-color: var(--blue);
+}

@@ -1,0 +1,9 @@
+.header__logo-area {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  background-color: var(--dark-blue);
+  pointer-events: all;
+  padding: 10px 16px;
+  display: flex;
+  justify-content: center;
+}

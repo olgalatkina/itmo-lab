@@ -1,0 +1,5 @@
+.header__dark-area {
+  background-color: var(--dark-blue);
+  display: none;
+  pointer-events: all;
+}

@@ -1,0 +1,20 @@
+.nav__toggle_type_education {
+
+}
+
+.nav__toggle_type_education:checked ~ .nav__list .nav__sublist-area_type_education {
+  opacity: 1;
+  height: 78px;
+  pointer-events: all;
+  transition: height 0.3s, opacity 0.3s;
+}
+
+.nav__toggle_type_education:checked ~ .nav__list .nav__link {
+  opacity: 0.5;
+}
+
+.nav__toggle_type_education:checked ~.nav__list .nav__item .nav__label_type_education {
+  font-weight: 600;
+  opacity: 1;
+}
+
