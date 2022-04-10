@@ -6,6 +6,7 @@ import teamData from "./mock/mock-team.js";
 import partnersData from "./mock/mock-partners.js";
 import { renderElementsToDOM } from './utils.js';
 import { generateProjectCard, sortData, activateProjectsMenuItem, extendFifthCard } from './projects/projects.js';
+import { generateTeamCard } from "./team/team.js";
 
 // ------- ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ -------
 // MENU
@@ -31,7 +32,8 @@ const openProjectsGalleryBtn = projects.querySelector('.projects__btn-gallery');
 // PUBLICATIONS
 
 // TEAM
-
+const team = document.querySelector('.team');
+const teamContainerElement = team.querySelector('.team__cards');
 // PARTNERS
 
 // ------- КОД -------
@@ -71,5 +73,5 @@ sortingHeaderBtn.addEventListener('click', toggleOpenSortingMenu);
 // PUBLICATIONS
 
 // TEAM
-
+renderElementsToDOM(teamData, teamContainerElement, generateTeamCard)
 // PARTNERS
