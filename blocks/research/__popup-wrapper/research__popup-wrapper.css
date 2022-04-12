@@ -1,26 +1,23 @@
 .research__popup-wrapper {
-  width: 268px;
-  height: 24px;
-  margin: 16px 0 10px 0;
+  min-width: 250px;
+  width: auto;
+  margin: 0 0 10px 0;
   display: flex;
   justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
   .research__popup-wrapper {
-    width: 431px;
-    height: 33px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    margin: 0 0 20px 0;
+    min-width: 431px;
+    margin: 20px 0 0 20px;
+    align-self: center;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .research__popup-wrapper {
-    width: 650px;
-    right: 20px;
-    top: 20px;
+    min-width: 650px;
+    margin: 5px 0 0 20px;
+    align-self: flex-start;
   }
 }

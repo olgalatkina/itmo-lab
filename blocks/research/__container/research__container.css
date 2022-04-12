@@ -1,4 +1,11 @@
 .research__container {
   max-width: 1110px;
+  width: calc(100% - 32px);
   align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .research__container {
+    width: calc(100% - 78px);
+  }
 }

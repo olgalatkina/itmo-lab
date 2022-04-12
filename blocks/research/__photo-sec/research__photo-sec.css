@@ -2,19 +2,21 @@
   display: none;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .research__photo-sec {
     display: block;
-    width: 264px;
-    height: 276px;
-    background-image: url(../../../images/lab/image_38.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    height: 240px;
     border-radius: 5px;
     margin-top: 20px;
     margin-left: 30px;
     border-radius: 10px;
-    cursor: pointer;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__photo-sec {
+    width: 264px;
+    height: 276px;
   }
 }

@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1200px) {
   .research__photos {
     flex-direction: row-reverse;
     align-items: flex-start;

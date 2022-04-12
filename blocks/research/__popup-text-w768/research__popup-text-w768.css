@@ -5,7 +5,6 @@
 @media screen and (min-width: 768px) {
   .research__popup-text-w768 {
     display: block;
-    width: 431px;
     font-size: 14px;
     line-height: 19px;
     margin: 0 0 20px 0;
@@ -14,7 +13,6 @@
 
 @media screen and (min-width: 1440px) {
   .research__popup-text-w768 {
-    width: 650px;
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0.1px;

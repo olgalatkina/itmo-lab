@@ -1,10 +1,13 @@
 .research__wrapper {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
   .research__wrapper {
     flex-direction: row-reverse;
+    position: relative;
   }
 }

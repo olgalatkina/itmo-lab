@@ -2,9 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 584px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 @media screen and (min-width: 768px) {
   .research__description {
