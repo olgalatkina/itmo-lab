@@ -16,6 +16,7 @@
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.1px;
+    min-width: 330px;
     max-width: calc(1110px - 270px);
   }
 }

@@ -2,7 +2,7 @@
   display: grid;
   list-style: none;
   grid-template-columns: repeat(1, 1fr);
-  width: calc(100% - 32px);
+  width: calc(100% - 52px);
   margin: 0;
   gap: 0;
   padding: 16px;
@@ -16,10 +16,11 @@
 @media screen and (min-width: 768px) {
   .research__popup-container {
     grid-template-columns: minmax(199px, 300px) auto;
-    width: calc(100% - 78px);
+    width: calc(100% - 95px);
     padding: 20px;
     max-width: 1000px;
-    min-height: 454px;
+    min-height: 414px;
+    position: relative;
   }
 }
 
@@ -27,6 +28,6 @@
   .research__popup-container {
     grid-template-columns: 400px auto;
     max-width: 1110px;
-    min-height: 718px;
+    min-height: 678px;
   }
 }

@@ -5,6 +5,7 @@
 @media screen and (min-width: 768px) {
   .research__text_bold {
     font-weight: 400;
+    padding-top: 0;
   }
 }
 
