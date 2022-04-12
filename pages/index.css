@@ -141,6 +141,7 @@
 @import url(../blocks/tooltip/tooltip.css);
 @import url(../blocks/tooltip/_active/tooltip_active.css);
 @import url(../blocks/tooltip/__box/tooltip__box.css);
+@import url(../blocks/tooltip/__social-btn/tooltip__social-btn.css);
 @import url(../blocks/tooltip/__social-icon/tooltip__social-icon.css);
 /* TEAM */
 @import url(../blocks/team/team.css);
