@@ -34,6 +34,46 @@
 @import url(../blocks/about-card/__text/about-card__text.css);
 
 /* RESEACH */
+@import url(../blocks/research/research.css);
+@import url(../blocks/research/__container/research__container.css);
+@import url(../blocks/research/__title/research__title.css);
+@import url(../blocks/research/__intro/research__intro.css);
+@import url(../blocks/research/__photos/research__photos.css);
+@import url(../blocks/research/__wrapper/research__wrapper.css);
+@import url(../blocks/research/__photo-main/research__photo-main.css);
+@import url(../blocks/research/__photo-sec/research__photo-sec.css);
+@import url(../blocks/research/__description/research__description.css);
+@import url(../blocks/research/__molecule/research__molecule.css);
+@import url(../blocks/research/__text/research__text.css);
+@import url(../blocks/research/__text/_bold/research__text_bold.css);
+@import url(../blocks/research/__cards/research__cards.css);
+@import url(../blocks/research/__card/research__card.css);
+@import url(../blocks/research/__card/_project/research__card_project.css);
+@import url(../blocks/research/__card/_machine-learning/research__card_machine-learning.css);
+@import url(../blocks/research/__card/_data/research__card_data.css);
+@import url(../blocks/research/__card/_robot/research__card_robot.css);
+@import url(../blocks/research/__card-title/research__card-title.css);
+@import url(../blocks/research/__card-title/_active/research__card-title_active.css);
+@import url(../blocks/research/__card-icon-wrapper/research__card-icon-wrapper.css);
+@import url(../blocks/research/__card-icon/research__card-icon.css);
+@import url(../blocks/research/__card-icon/_brain/research__card-icon_brain.css);
+@import url(../blocks/research/__card-icon/_micro/research__card-icon_micro.css);
+@import url(../blocks/research/__card-icon/_project/research__card-icon_project.css);
+@import url(../blocks/research/__card-icon/_robot/research__card-icon_robot.css);
+@import url(../blocks/research/__card-text/research__card-text.css);
+@import url(../blocks/research/__card-button/research__card-button.css);
+@import url(../blocks/research/__popup/research__popup.css);
+@import url(../blocks/research/__popup/_active/research__popup_active.css);
+@import url(../blocks/research/__popup-container/research__popup-container.css);
+@import url(../blocks/research/__popup-wrapper/research__popup-wrapper.css);
+@import url(../blocks/research/__popup-wrapper-text/research__popup-wrapper-text.css);
+@import url(../blocks/research/__popup-title/research__popup-title.css);
+@import url(../blocks/research/__popup-close-button/research__popup-close-button.css);
+@import url(../blocks/research/__popup-image/research__popup-image.css);
+@import url(../blocks/research/__popup-list/research__popup-list.css);
+@import url(../blocks/research/__popup-text/research__popup-text.css);
+@import url(../blocks/research/__popup-text-w768/research__popup-text-w768.css);
+@import url(../blocks/research/__popup-text-w1440/research__popup-text-w1440.css);
 
 /* PROJECTS */
 @import url(../blocks/projects/projects.css);

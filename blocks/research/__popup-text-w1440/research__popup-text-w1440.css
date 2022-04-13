@@ -1,0 +1,13 @@
+.research__popup-text-w1440 {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .research__popup-text-w1440 {
+    display: block;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    margin: 0 0 20px 0;
+  }
+}

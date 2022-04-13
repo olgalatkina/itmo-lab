@@ -1,0 +1,21 @@
+.research__popup-list {
+  margin: 0;
+  padding: 0 0 0 28px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .research__popup-list {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__popup-list {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0 0 0 40px;
+  }
+}
