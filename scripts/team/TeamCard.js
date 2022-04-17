@@ -2,20 +2,18 @@ export default class TeamCard {
   constructor(data, selector) {
     this._data = data;
     this._selector = selector;
-    this._element = this._getElement();
   }
 
   _getElement() {
-    const cardElement = document
+    this._element = document
       .querySelector(this._selector)
       .content
       .querySelector('.team-card')
       .cloneNode(true);
-
-    return cardElement
   }
 
   generate() {
+    this._getElement();
     const photo = this._element.querySelector('.team-card__photo');
     const firstName = this._element.querySelector('.team-card__name_firstname');
     const lastName = this._element.querySelector('.team-card__name_lastname');
