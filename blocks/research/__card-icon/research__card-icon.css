@@ -1,0 +1,22 @@
+.research__card-icon {
+  width: 19.43px;
+  height: 19.43px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .research__card-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__card-icon {
+    width: 34px;
+    height: 34px;
+  }
+}

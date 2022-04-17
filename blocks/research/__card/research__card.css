@@ -1,0 +1,46 @@
+.research__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  /* min-width: 140px; */
+  min-height: 224px;
+  background: #FFFFFF;
+  border-radius: 5.45566px;
+  box-shadow: 0px 2.35349px 11.7674px rgba(1, 54, 157, 0.15);
+  transition: .2s linear;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.research__card:hover {
+  background: #009FAC;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+.research__card:hover .research__card-title {
+  color: #FFFFFF;
+}
+.research__card:hover .research__card-text {
+  color: #FFFFFF;
+}
+.research__card:hover .research__card-button {
+  color: #009FAC;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .research__card {
+    /* max-width: 150px; */
+    min-height: 242px;
+    /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%); */
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__card {
+    /* max-width: 255px; */
+    min-height: 430px;
+  }
+}
