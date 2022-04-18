@@ -1,0 +1,10 @@
+.about {
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  color: var(--white);
+  background-color: var(--blue);
+  display: flex;
+  justify-content: center;
+}

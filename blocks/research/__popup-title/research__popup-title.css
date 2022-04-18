@@ -1,0 +1,25 @@
+.research__popup-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000D26;
+  margin: 0;
+  max-width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media screen and (min-width: 768px) {
+  .research__popup-title {
+    margin: 20px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__popup-title {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

@@ -5,3 +5,7 @@
 .projects__gallery_opened ~ .projects__btn-gallery {
   transform: rotate(180deg);
 }
+
+.projects__gallery_opened ~ .projects__btn-gallery:hover {
+  transform: rotate(180deg) scale(1.1);
+}

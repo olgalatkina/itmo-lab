@@ -1,0 +1,36 @@
+.research__card-button {
+  border: 1px solid #001337;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.0588372px;
+  color: #001337;
+  width: 120px;
+  height: 32px;
+  background: #FFFFFF;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.research__card-button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+  .research__card-button {
+    width: 126.5px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__card-button {
+    width: 215px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}

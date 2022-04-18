@@ -1,0 +1,14 @@
+.about__nav-button {
+  width: 60px;
+  height: 60px;
+  transform: translateY(-20px);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-image .3s linear;
+  box-shadow: 0px 4px 30px rgba(224, 240, 255, 0.1);
+}

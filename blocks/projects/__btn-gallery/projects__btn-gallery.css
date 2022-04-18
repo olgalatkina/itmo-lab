@@ -13,8 +13,7 @@
   transition: all .3s linear;
 }
 
-.projects__btn-gallery:hover,
-.projects__btn-gallery:focus {
+.projects__btn-gallery:hover {
   opacity: .7;
   transform: scale(1.1);
 }

@@ -1,0 +1,24 @@
+.research__popup-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  margin: 10px 0 3px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .research__popup-text {
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__popup-text {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+  }
+}
