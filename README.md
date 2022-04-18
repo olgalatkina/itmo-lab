@@ -1,4 +1,4 @@
-[![LOGO](./images/logo-readme.png)](https://olgalatkina.github.io/itmo-lab/ "Code ♥ Wizards")
+[![LOGO](./src/images/logo-readme.png)](https://olgalatkina.github.io/itmo-lab/ "Code ♥ Wizards")
 
 # ITMO-lab
 
@@ -6,7 +6,7 @@
 
 Лендинг ориентирован на будущих студентов и его основная задача — привлечь новых студентов в магистратуру / аспирантуру. Поэтому основная задача — интересно рассказать о Лаборатории.
 
-![screenshot](./images/preview.png)
+![screenshot](./src/images/preview.png)
 
 **Figma**
 
