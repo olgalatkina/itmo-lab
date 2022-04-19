@@ -10,6 +10,7 @@
 @media (min-width: 1440px) {
   .publications-card:hover .publications-card__image {
     height: 158px;
+    max-height: 548px;
   }
   .publications-card:hover .publications-card__info {
     border-radius: 10px 10px 0 0;

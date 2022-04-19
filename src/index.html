@@ -302,10 +302,11 @@
   </section>
   <section id="publications" class="publications">
     <h2 class="publications__name">Публикации</h2>
-    <div class="publications__cards">
-      <button class="publications__slider-button publications__slider-button_left"></button>
-      <button class="publications__slider-button publications__slider-button_right"></button>
-    </div>
+      <div class="publications-container swiper-container">
+        <div class="publications__cards swiper-wrapper"></div>
+        <button class="publications__slider-button publications__slider-button_left"></button>
+        <button class="publications__slider-button publications__slider-button_right"></button>
+      </div>
   </section>
 
   <section id="team" class="team">
@@ -488,7 +489,7 @@
 
 <!--PUBLICATIONS-->
 <template id="publications-template">
-  <div class="publications-card">
+  <div class="publications-card swiper-slide">
     <div class="publications-card__info">
       <img
         src=""

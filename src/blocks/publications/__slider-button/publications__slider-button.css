@@ -18,13 +18,13 @@
 /*кнопка слева(влево)*/
 .publications__slider-button:nth-child(1) {
   background-image: url(../../../images/icons/ico_arrow-left.svg);
-  left: -76px;
+  left: 150px;
 }
 
 /*кнопка спрва(справа)*/
 .publications__slider-button:nth-child(2) {
   background-image: url(../../../images/icons/ico_arrow-right.svg);
-  right: -76px;
+  right: 76px;
 }
 
 @media (max-width: 1279px) {

@@ -1,5 +1,5 @@
 .publications__name {
-  margin: 40px auto 20px;
+  margin: 40px auto 0px;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
@@ -12,7 +12,7 @@
 @media (min-width: 768px) {
   .publications__name {
     max-width: 690px;
-    margin: 60px auto 40px;
+    margin: 60px auto 20px;
     font-size: 24px;
     line-height: 33px;
   }
@@ -21,7 +21,7 @@
 @media (min-width: 1440px) {
   .publications__name {
     max-width: 1110px;;
-    margin: 80px auto 30px;
+    margin: 80px auto 10px;
     font-size: 36px;
     line-height: 68px;
   }
