@@ -47,7 +47,7 @@ export class PublicationsCard {
     this._shareSocials();
 
     this._imageCard = this._element.querySelector('.publications-card__image');
-    this._imageCard.src = `./images/publication/${this._data.image}`;
+    this._imageCard.src = `<%=require('./images/publication/${this._data.image}')%>`;
     this._imageCard.alt = this._data.title;
 
     this._nameCard = this._element.querySelector('.publications-card__name');
