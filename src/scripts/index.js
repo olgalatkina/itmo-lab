@@ -1,4 +1,5 @@
 // ------- ИПОРТЫ -------
+import '../pages/index.css';
 import aboutData from "./mock/mock-about.js";
 import projectsData from "./mock/mock-projects.js";
 import publicationsData from "./mock/mock-publications.js";
