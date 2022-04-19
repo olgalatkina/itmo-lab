@@ -7,21 +7,20 @@
   top: 0;
   gap: 0;
   width: 100%;
-  max-width: 1440px;
   display: grid;
-  grid-template-columns: 242px 78px 1fr;
+  grid-template-columns: 280px 40px 1fr;
   grid-template-rows: auto;
   pointer-events: none;
 }
 
 @media (min-width: 600px) {
   .header {
-    grid-template-columns: 258px 72px 1fr;
+    grid-template-columns: 290px 40px 1fr;
   }
 }
 
 @media (min-width: 1000px) {
   .header {
-    grid-template-columns: minmax(150px, 22%) minmax(850px, 78%);
+    grid-template-columns: 1fr 190px minmax(auto, 960px) 1fr;
   }
 }

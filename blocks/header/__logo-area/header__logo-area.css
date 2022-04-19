@@ -16,8 +16,7 @@
 
 @media (min-width: 1000px) {
   .header__logo-area {
-    grid-column: 1 / 2;
-    padding: 14px 0;
-    justify-content: right;
+    grid-column: 2 / 3;
+    padding: 14px 0 14px 40px;
   }
 }

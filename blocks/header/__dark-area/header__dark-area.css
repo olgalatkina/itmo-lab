@@ -3,3 +3,12 @@
   display: none;
   pointer-events: all;
 }
+
+@media (min-width: 1000px) {
+  .header__dark-area {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    width: 100%;
+    display: block;
+  }
+}
