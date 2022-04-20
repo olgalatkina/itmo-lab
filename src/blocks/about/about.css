@@ -7,4 +7,5 @@
   background-color: var(--blue);
   display: flex;
   justify-content: center;
+  padding-top: 60px;
 }

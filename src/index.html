@@ -9,7 +9,61 @@
 </head>
 <body class="root">
 <header class="header">
-
+  <input class="header__button" type="checkbox" id="header__button">
+  <label class="header__button-label" for="header__button"></label>
+  <div class="header__empty-area"></div>
+  <div class="header__dark-area"></div>
+  <div class="header__logo-area"><img class="header__logo" src="<%=require('./images/logo.png')%>" alt="Логотип ITMO Lab"></div>
+  <nav class="nav">
+    <input class="nav__toggle nav__toggle_type_education" type="checkbox" id="nav-education">
+    <ul class="nav__list">
+      <li class="nav__item">
+        <a class="nav__link" href="#about">
+          О нас
+        </a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#research">
+          Лаборатория
+        </a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#projects">
+          Проекты
+        </a>
+      </li>
+      <li class="nav__sublist-area">
+        <label class="nav__item nav__label nav__label_type_education" for="nav-education">Образование</label>
+        <ul class="nav__sublist nav__sublist_type_education">
+          <li class="nav__subitem">
+            <a class="nav__sublink" href="#education">
+              Магистратура
+            </a>
+          </li>
+          <li class="nav__subitem">
+            <a class="nav__sublink" href="#education">
+              Аспирантура
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#publications">
+          Публикации
+        </a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#team">
+          Команда
+        </a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link" href="#feedback">
+          Связаться
+        </a>
+      </li>
+    </ul>
+  </nav>
 </header>
 <main class="main">
   <section id="intro" class="intro">
@@ -38,7 +92,7 @@
         </div>
         <div class="about__slider">
           <article class="about-card">
-            <img class="about-card__icon" src="./images/icons/icon_pin.svg" alt="Канцелярская кнопка">
+            <img class="about-card__icon" src="<%=require('./images/icons/icon_pin.svg')%>" alt="Канцелярская кнопка">
             <span class="about-card__date">Понедельник, 5 июля 2021г</span>
             <a class="about-card__title-link" href="#">
               <h3 class="about-card__title">
@@ -54,7 +108,7 @@
             </p>
           </article>
           <article class="about-card">
-            <img class="about-card__icon" src="./images/icons/icon_pin.svg" alt="Канцелярская кнопка">
+            <img class="about-card__icon" src="<%=require('./images/icons/icon_pin.svg')%>" alt="Канцелярская кнопка">
             <span class="about-card__date">Понедельник, 5 июля 2021г</span>
             <a class="about-card__title-link" href="#">
               <h3 class="about-card__title">
@@ -70,7 +124,7 @@
             </p>
           </article>
           <article class="about-card">
-            <img class="about-card__icon" src="./images/icons/icon_pin.svg" alt="Канцелярская кнопка">
+            <img class="about-card__icon" src="<%=require('./images/icons/icon_pin.svg')%>" alt="Канцелярская кнопка">
             <span class="about-card__date">Понедельник, 5 июля 2021г</span>
             <a class="about-card__title-link" href="#">
               <h3 class="about-card__title">
@@ -84,7 +138,7 @@
             </p>
           </article>
           <article class="about-card">
-            <img class="about-card__icon" src="./images/icons/icon_pin.svg" alt="Канцелярская кнопка">
+            <img class="about-card__icon" src="<%=require('./images/icons/icon_pin.svg')%>" alt="Канцелярская кнопка">
             <span class="about-card__date">Понедельник, 5 июля 2021г</span>
             <a class="about-card__title-link" href="#">
               <h3 class="about-card__title">
@@ -100,7 +154,7 @@
             </p>
           </article>
           <article class="about-card">
-            <img class="about-card__icon" src="./images/icons/icon_pin.svg" alt="Канцелярская кнопка">
+            <img class="about-card__icon" src="<%=require('./images/icons/icon_pin.svg')%>" alt="Канцелярская кнопка">
             <span class="about-card__date">Понедельник, 5 июля 2021г</span>
             <a class="about-card__title-link" href="#">
               <h3 class="about-card__title">
@@ -116,7 +170,7 @@
             </p>
           </article>
           <article class="about-card">
-            <img class="about-card__icon" src="./images/icons/icon_pin.svg" alt="Канцелярская кнопка">
+            <img class="about-card__icon" src="<%=require('./images/icons/icon_pin.svg')%>" alt="Канцелярская кнопка">
             <span class="about-card__date">Понедельник, 5 июля 2021г</span>
             <a class="about-card__title-link" href="#">
               <h3 class="about-card__title">
