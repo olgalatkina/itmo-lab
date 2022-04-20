@@ -1,0 +1,17 @@
+.research__text_bold {
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .research__text_bold {
+    font-weight: 400;
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__text_bold {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

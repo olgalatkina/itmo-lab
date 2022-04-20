@@ -1,0 +1,12 @@
+.research__photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .research__photos {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+}
