@@ -1,4 +1,4 @@
-// ------- ИПОРТЫ -------
+// ------- ИМПОРТЫ -------
 import '../pages/index.css';
 import aboutData from "./mock/mock-about.js";
 import projectsData from "./mock/mock-projects.js";
@@ -6,12 +6,13 @@ import publicationsData from "./mock/mock-publications.js";
 import teamData from "./mock/mock-team.js";
 import partnersData from "./mock/mock-partners.js";
 import { renderElementsToDOM } from './utils.js';
+import { makeLinks } from './header/header';
 import { generateProjectCard, sortData, activateProjectsMenuItem, extendFifthCard } from './projects/projects.js';
 import { generatePublicationsCard } from './publications/publications.js';
 import { generateTeamCard } from "./team/team.js";
 
 // ------- ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ -------
-// MENU
+// HEADER
 
 // INTRO
 
@@ -41,7 +42,8 @@ const teamContainerElement = team.querySelector('.team__cards');
 // PARTNERS
 
 // ------- КОД -------
-// MENU
+// HEADER
+makeLinks();
 
 // INTRO
 
