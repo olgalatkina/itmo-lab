@@ -16,15 +16,15 @@
 }
 
 /*кнопка слева(влево)*/
-.publications__slider-button:nth-child(1) {
+.publications__slider-button_left {
   background-image: url(../../../images/icons/ico_arrow-left.svg);
-  left: 150px;
+  left: -76px;
 }
 
 /*кнопка спрва(справа)*/
-.publications__slider-button:nth-child(2) {
+.publications__slider-button_right {
   background-image: url(../../../images/icons/ico_arrow-right.svg);
-  right: 76px;
+  right: -76px;
 }
 
 @media (max-width: 1279px) {

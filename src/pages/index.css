@@ -124,6 +124,7 @@
 /* PUBLICATIONS */
 @import url(../blocks/publications/publications.css);
 @import url(../blocks/publications/__name/publications__name.css);
+@import url(../blocks/publications/__wrapper/publications__wrapper.css);
 @import url(../blocks/publications/__container/publications__container.css);
 @import url(../blocks/publications/__cards/publications__cards.css);
 @import url(../blocks/publications/__slider-button/publications__slider-button.css);

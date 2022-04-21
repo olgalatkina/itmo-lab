@@ -1,15 +1,6 @@
 .publications__cards {
-  position: relative;
-  width: 100%;
   display: flex;
   justify-content: flex-start;
   flex-shrink: 0;
-  gap: 30px;
+  width: calc(100% - 40px);
 }
-
-@media (max-width: 320px) {
-  .publications__cards {
-    gap: 8px;
-  }
-}
-

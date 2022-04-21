@@ -1,30 +1,31 @@
-.publications-container {
+.publications__container {
   overflow: hidden;
   margin: 0 auto 0;
-  width: calc(100% - 40px);
+  /*width: calc(100% - 40px);*/
   padding: 20px;
+  /*position: relative;*/
 }
 
 @media (min-width: 768px) {
-  .publications-container {
+  .publications__container {
     width: 605px;
   }
 }
 
 @media (min-width: 768px) {
-  .publications-container {
+  .publications__container {
     width: 695px;
   }
 }
 
 @media (min-width: 1270px) {
-  .publications-container {
+  .publications__container {
     width: 1050px;
   }
 }
 
 @media (min-width: 1440px) {
-  .publications-container {
+  .publications__container {
     width: 1110px;
   }
 }
