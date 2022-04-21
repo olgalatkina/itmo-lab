@@ -1,0 +1,37 @@
+.nav__toggle_type_education {
+
+}
+
+.nav__toggle_type_education:checked ~ .nav__list .nav__sublist_type_education {
+  opacity: 1;
+  height: 78px;
+  pointer-events: all;
+  transition: height 0.3s, opacity 0.3s;
+}
+
+.nav__toggle_type_education:checked ~ .nav__list .nav__link {
+  opacity: 0.5;
+}
+
+.nav__toggle_type_education:checked ~.nav__list .nav__label_type_education {
+  font-weight: 600;
+}
+
+@media (min-width: 1000px) {
+  .nav__toggle_type_education:checked ~ .nav__list .nav__sublist_type_education  {
+    display: block;
+  }
+  .nav__toggle_type_education:checked ~ .nav__list .nav__link {
+    opacity: 1;
+  }
+  .nav__toggle_type_education:checked ~.nav__list .nav__label_type_education {
+    font-weight: 400;
+    box-shadow: 0px 2px 0px var(--emerald);
+  }
+
+  .nav__toggle_type_education:checked ~ .nav__list .nav__sublist_type_education {
+    opacity: 1;
+    height: auto;
+    pointer-events: all;
+  }
+}

@@ -1,0 +1,19 @@
+.nav__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+@media (min-width: 1000px) {
+  .nav__list {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5.1%;
+    width: 100%;
+    padding: 0 40px 0 0;
+  }
+}

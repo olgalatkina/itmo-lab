@@ -1,0 +1,22 @@
+.header__logo-area {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  background-color: var(--dark-blue);
+  pointer-events: all;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .header__logo-area {
+    padding: 14px 40px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header__logo-area {
+    grid-column: 2 / 3;
+    padding: 14px 0 14px 40px;
+  }
+}

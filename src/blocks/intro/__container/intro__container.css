@@ -2,12 +2,13 @@
   max-width: 1440px;
   background-size: cover;
   z-index: 1;
-  padding: 30px 16px 60px;
+  padding: 30px 16px 0;
   position: relative;
   width: 100%;
   display: flex;
   justify-content: flex-start;
   box-sizing: border-box;
+  margin-top: 44px;
 }
 
 .intro__container::before {
@@ -28,6 +29,7 @@
 @media (min-width: 600px) {
   .intro__container {
     padding: 60px 39px 120px;
+    margin-top: 60px;
   }
   .intro__container::before {
     background-size: 172%;
@@ -37,6 +39,7 @@
 
 @media (min-width: 1000px) {
   .intro__container {
+    margin-top: 80px;
     padding: 92px 165px 124px;
     justify-content: flex-end;
   }

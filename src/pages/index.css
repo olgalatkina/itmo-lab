@@ -5,6 +5,25 @@
 @import url(../blocks/main/main.css);
 
 /* HEADER */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__dark-area/header__dark-area.css);
+@import url(../blocks/header/__empty-area/header__empty-area.css);
+@import url(../blocks/header/__logo-area/header__logo-area.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button-label/header__button-label.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__label/nav__label.css);
+@import url(../blocks/nav/__toggle/nav__toggle.css);
+@import url(../blocks/nav/__toggle/_type/_education/nav__tiggle_type_education.css);
+@import url(../blocks/nav/__sublist-area/nav__sublist-area.css);
+@import url(../blocks/nav/__sublist/nav__sublist.css);
+@import url(../blocks/nav/__subitem/nav__subitem.css);
+@import url(../blocks/nav/__sublink/nav__sublink.css);
+
 
 /* INTRO */
 @import url(../blocks/intro/intro.css);
