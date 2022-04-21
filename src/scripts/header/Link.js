@@ -8,7 +8,7 @@ export default class Link {
     this._linkItem = linkItem;
     this._clickCallback = clickCallback;
   }
-  setEventListeners() {
+  setEventListeners(evt) {
     this._linkItem.addEventListener("click", (evt) => {
       evt.preventDefault();
       this._clickCallback();

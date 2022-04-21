@@ -19,6 +19,8 @@ export default class Anchor {
     return this._name;
   }
   goTo() {
+    console.log('я зашел в гоуту!')
+    console.log('высота хедера', this._getHeaderOffset(), 'координаты элемента', this._anchorItem.offsetTop)
     const headerOffset = this._getHeaderOffset();
     const elementPosition = this._anchorItem.offsetTop;
     window.scrollTo({
