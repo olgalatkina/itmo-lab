@@ -15,3 +15,15 @@
     gap: 8px;
   }
 }
+
+@media (min-width: 768px) {
+  .team__cards {
+    width: 690px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .team__cards {
+    width: 1110px;
+  }
+}
