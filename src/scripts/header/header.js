@@ -2,11 +2,11 @@ import Link from './Link';
 import Anchor from './Anchor';
 import Nav from './Nav';
 
-//создаем экземпляр класса Nav(хедер) и запускаем слушатели
+//создаем экземпляр класса Nav(хедер)
 const nav = new Nav('header')
 
 //Тут проходит поиск сразу по двум классам, собирая в один nodelist.
-const links = document.querySelectorAll('.nav__link, .nav__sublink');
+const links = document.querySelectorAll('.nav__link, .nav__sublink, .intro__button');
 const sections = document.querySelectorAll('section');
 const headerLogoArea = document.querySelector('.header__logo-area');
 
