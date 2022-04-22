@@ -19,7 +19,7 @@ export default class TeamCard {
     const lastName = this._element.querySelector('.team-card__name_lastname');
     const description = this._element.querySelector('.team-card__desc');
 
-    photo.src = `./images/team/${this._data.image}`;
+    photo.src = this._data.image;
     photo.alt = `${this._data.name + ' ' + this._data.surname}`;
     firstName.textContent = this._data.name;
     lastName.textContent = this._data.surname;
