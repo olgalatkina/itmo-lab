@@ -1,42 +1,50 @@
+import imgMan00 from '../../images/team/man_00.png';
+import imgMan01 from '../../images/team/man_01.png';
+import imgMan02 from '../../images/team/man_02.png';
+import imgMan03 from '../../images/team/man_03.png';
+import imgMan04 from '../../images/team/man_04.png';
+import imgMan05 from '../../images/team/man_05.png';
+import imgMan06 from '../../images/team/man_06.png';
+
 const teamData = [
   {
-    image: 'man_00.png',
+    image: imgMan00,
     name: 'Алексей Алексеевич',
     surname: 'Бобцов',
     position: 'Директор, профессор, ДТН',
   },
   {
-    image: 'man_01.png',
+    image: imgMan01,
     name: 'Александр Валерьевич',
     surname: 'Буханоский',
     position: 'Директор, руководитель, ДТН',
   },
   {
-    image: 'man_02.png',
+    image: imgMan02,
     name: 'Дмитрий Ильич',
     surname: 'Муромцев',
     position: 'Руководитель, доцент, КТН',
   },
   {
-    image: 'man_03.png',
+    image: imgMan03,
     name: 'Юрий Николаевич',
     surname: 'Матвеев',
     position: 'Руководитель, профессор, ДТН',
   },
   {
-    image: 'man_04.png',
+    image: imgMan04,
     name: 'Анатолий Абрамович',
     surname: 'Шалыто',
     position: 'Профессор, ДТН',
   },
   {
-    image: 'man_05.png',
+    image: imgMan05,
     name: 'Сергей Алексеевич',
     surname: 'Колюбин',
     position: 'Начальник, профессор, ДТН',
   },
   {
-    image: 'man_06.png',
+    image: imgMan06,
     name: 'Антон Александрович',
     surname: 'Пыркин',
     position: 'Декан, профессор, ДТН',
