@@ -6,7 +6,7 @@ import publicationsData from "./mock/mock-publications.js";
 import teamData from "./mock/mock-team.js";
 import partnersData from "./mock/mock-partners.js";
 import { renderElementsToDOM } from './utils.js';
-import { makeLinks, nav, setScrollListener } from './header/header';
+import '../scripts/header/header.js';
 import { generateProjectCard, sortData, activateProjectsMenuItem, extendFifthCard } from './projects/projects.js';
 import { generatePublicationsCard } from './publications/publications.js';
 import { generateTeamCard } from "./team/team.js";
@@ -43,11 +43,6 @@ const teamContainerElement = team.querySelector('.team__cards');
 
 // ------- КОД -------
 // HEADER
-
-nav.setEventListeners();
-makeLinks();
-//Устанавливаем слушатель скролла на страницу с таймером (без таймера нет возможности отработать переход по изначальной хэш-ссылке)
-setTimeout(setScrollListener, 1500);
 
 // INTRO
 

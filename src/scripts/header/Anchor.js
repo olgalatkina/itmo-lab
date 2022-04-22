@@ -6,13 +6,13 @@
 // После этого высчитывает необходимые координаты и происходит переход в нужные координаты.
 
 export default class Anchor {
-  constructor (anchorItem, offsetGetter) {
+  constructor(anchorItem, offsetGetter) {
     this._anchorItem = anchorItem;
-    this._name = this._anchorItem.getAttribute('id');
+    this._name = this._anchorItem.getAttribute("id");
 
     this._offsetGetter = offsetGetter;
   }
-  _getHeaderOffset () {
+  _getHeaderOffset() {
     return this._offsetGetter();
   }
   getName() {
@@ -23,6 +23,6 @@ export default class Anchor {
     const elementPosition = this._anchorItem.offsetTop;
     window.scrollTo({
       top: elementPosition - headerOffset,
-    })
+    });
   }
-};
+}

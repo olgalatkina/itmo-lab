@@ -14,6 +14,7 @@
 @import url(../blocks/header/__button-label/header__button-label.css);
 @import url(../blocks/nav/nav.css);
 @import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__item/_curren-section/nav__item_current-section.css);
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__list/nav__list.css);
 @import url(../blocks/nav/__label/nav__label.css);
