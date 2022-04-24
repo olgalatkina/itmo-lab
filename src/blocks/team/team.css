@@ -1,4 +1,6 @@
 .team {
   background: linear-gradient(var(--light-blue) 63%, var(--blue) 37%);
   width: 100%;
+  position: relative;
+  overflow: hidden;
 }

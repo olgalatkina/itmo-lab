@@ -1,0 +1,10 @@
+.team__slider {
+  height: 100%;
+  margin: 0 auto 0;
+}
+
+@media (min-width: 1270px) {
+  .team__slider {
+    overflow: hidden;
+  }
+}

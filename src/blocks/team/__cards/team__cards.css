@@ -3,27 +3,7 @@
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  gap: 30px;
   flex-direction: row;
   margin: 0 auto 0;
-  overflow: hidden;
   transition: all .2s linear;
-}
-
-@media (max-width: 320px) {
-  .team__cards {
-    gap: 8px;
-  }
-}
-
-@media (min-width: 768px) {
-  .team__cards {
-    width: 690px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .team__cards {
-    width: 1110px;
-  }
 }

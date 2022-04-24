@@ -1,0 +1,12 @@
+.team__slider-container {
+  max-width: 1110px;
+  width: calc(100% - 32px);
+  position: relative;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .team__slider-container {
+    width: calc(100%-78px);
+  }
+}
