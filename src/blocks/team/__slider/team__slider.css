@@ -3,7 +3,7 @@
   margin: 0 auto 0;
 }
 
-@media (min-width: 1270px) {
+@media (min-width: 1024px) {
   .team__slider {
     overflow: hidden;
   }
