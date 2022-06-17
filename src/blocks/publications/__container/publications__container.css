@@ -1,18 +1,13 @@
 .publications__container {
   overflow: hidden;
   margin: 0 auto 0;
-  padding: 20px;
+  padding: 10px;
 }
 
 @media (min-width: 768px) {
   .publications__container {
-    width: 605px;
-  }
-}
-
-@media (min-width: 768px) {
-  .publications__container {
-    width: 695px;
+    width: 680px;
+    padding: 20px;
   }
 }
 

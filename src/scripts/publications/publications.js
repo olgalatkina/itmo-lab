@@ -1,5 +1,5 @@
 import { PublicationsCard } from './PublicationsCard.js';
-import Swiper, { Navigation, Pagination } from 'swiper';
+import Swiper, { Navigation} from 'swiper';
 
 const generatePublicationsCard = (card) => new PublicationsCard(card, '#publications-template').generate();
 
@@ -8,25 +8,19 @@ export { generatePublicationsCard };
 new Swiper ('.publications__container', {
   modules: [ Navigation],
   speed: 450,
-  watchOverflow: true,
   grabCursor: true,
   preventInteractionOnTransition: true,
   rewind: true,
-  slidesPerView: 2,
+  slidesPerView: 'auto',
+  spaceBetween: 30,
   slidesPerGroup: 1,
   centeredSlides: false,
 
   breakpoints: {
-    320: {
-      slidesPerView: 1,
-      slidesPerGroup: 1,
-      spaceBetween: 8,
-    },
-
-    350: {
+    768: {
+      spaceBetween: 30,
       slidesPerView: 2,
-      slidesPerGroup: 1,
-      spaceBetween: 8,
+      spaceBetween: 20,
     },
 
     1270: {
