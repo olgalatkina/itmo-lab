@@ -168,6 +168,8 @@
 @import url(../blocks/team/team.css);
 @import url(../blocks/team/__name/team__name.css);
 @import url(../blocks/team/__slider-button/team__slider-button.css);
+@import url(../blocks/team/__slider-container/team__slider-container.css);
+@import url(../blocks/team/__slider/team__slider.css);
 @import url(../blocks/team/__cards/team__cards.css);
 @import url(../blocks/team-card/team-card.css);
 @import url(../blocks/team-card/__info/team-card__info.css);

@@ -15,18 +15,22 @@
 }
 
 /*кнопка слева(влево)*/
-.team__slider-button:nth-child(1) {
+.team__slider-button_prev {
   background-image: url(../../../images/icons/ico_arrow-left-white.svg);
   fill: #E0F0FF;
   left: -76px;
 }
 /*кнопка спрва(справа)*/
-.team__slider-button:nth-child(2) {
+.team__slider-button_next {
   background-image: url(../../../images/icons/ico_arrow-right-white.svg);
   right: -76px;
 }
 
-@media (max-width: 1279px) {
+.swiper-button-disabled {
+  display: none;
+}
+
+@media (max-width: 1269px) {
   .team__slider-button {
     display: none;
   }
