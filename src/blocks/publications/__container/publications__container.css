@@ -1,0 +1,24 @@
+.publications__container {
+  overflow: hidden;
+  margin: 0 auto 0;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .publications__container {
+    width: 680px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1270px) {
+  .publications__container {
+    width: 1050px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publications__container {
+    width: 1110px;
+  }
+}
