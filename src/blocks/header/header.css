@@ -21,6 +21,6 @@
 
 @media (min-width: 1000px) {
   .header {
-    grid-template-columns: 1fr 190px minmax(auto, 960px) 1fr;
+    grid-template-columns: 1fr 190px minmax(auto, 1000px) 1fr;
   }
 }

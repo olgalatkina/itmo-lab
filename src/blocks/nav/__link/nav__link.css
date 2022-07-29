@@ -16,7 +16,6 @@
 
 @media (min-width: 1000px) {
   .nav__link {
-    padding: 0;
-
+    padding: 7px 0;
   }
 }
