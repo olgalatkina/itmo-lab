@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>ITMO lab</title>
 </head>
 <body class="root">
+<!--HEADER-->
 <header class="header">
   <input class="header__button" type="checkbox" id="header__button">
   <label class="header__button-label" for="header__button"></label>
@@ -65,7 +65,10 @@
     </ul>
   </nav>
 </header>
+
+<!--MAIN-->
 <main class="main">
+  <!--INTRO-->
   <section id="intro" class="intro">
     <div class="intro__container">
       <div>
@@ -76,6 +79,8 @@
       </div>
     </div>
   </section>
+
+  <!--ABOUT-->
   <section id="about" class="about">
     <div class="about__container">
       <h2 class="about__title">Несколько слов о нас</h2>
@@ -188,20 +193,22 @@
       </div>
     </div>
   </section>
+
+  <!--RESEARCH-->
   <section class="research" id="research">
     <div class="research__container">
       <h2 class="research__title">Industrial AI research lab</h2>
       <div class="research__intro">
         <div class="research__wrapper">
           <div class="research__photos">
-            <img class="research__photo-main" src="./images/lab/image 35.png" alt="Мужчины работают в светлом офисе за компьютерами">
-            <img class="research__photo-sec" src="./images/lab/image_38.png" alt="Мужчина в наушниках задумался за ноутбуком">
+            <img class="research__photo-main" src="<%=require('./images/lab/image_35.png')%>" alt="Мужчины работают в светлом офисе за компьютерами">
+            <img class="research__photo-sec" src="<%=require('./images/lab/image_38.png')%>" alt="Мужчина в наушниках задумался за ноутбуком">
           </div>
           <div class="research__description">
             <p class="research__text research__text_bold">Центр национальной технологической инициативы (НТИ), получивший государственную поддержку по&nbsp;направлению &laquo;Технологии машинного обучения и&nbsp;когнитивные технологии&raquo;.</p>
             <p class="research__text">Мы&nbsp;изучаем проблемы и&nbsp;выявляем, когда мы&nbsp;работаем вместе с&nbsp;нашими клиентами, новые решения находят, не&nbsp;задумываясь. Работая таким образом и&nbsp;проявляя гибкость, мы&nbsp;можем поддерживать новый подход для удовлетворения потребностей наших клиентов.</p>
           </div>
-          <img class="research__molecule" src="./images/lab/research-icon-molecule.png"  alt="молекула">
+          <img class="research__molecule" src="<%=require('./images/lab/research-icon-molecule.png')%>"  alt="молекула">
         </div>
         <ul class="research__cards">
           <li class="research__card research__card_project">
@@ -243,6 +250,8 @@
         </ul>
       </div>
     </div>
+
+    <!--RESEARCH POPUP-->
     <div class="research__popup">
       <div class="research__popup-container">
         <div class="research__popup-wrapper">
@@ -265,8 +274,9 @@
         </div>
       </div>
     </div>
-
   </section>
+
+  <!--PROJECTS-->
   <section id="projects" class="projects">
     <div class="projects__container">
       <h2 class="projects__title">Наши проекты</h2>
@@ -297,6 +307,8 @@
       <button class="projects__btn-gallery" type="button" aria-label="Открыть галерею проектов"></button>
     </div>
   </section>
+
+  <!--EDUCATION-->
   <section id="education" class="education">
     <div class="education__container">
       <h2 class="education__title">Образование</h2>
@@ -352,6 +364,8 @@
       </div>
     </div>
   </section>
+
+  <!--PUBLICATIONS-->
   <section id="publications" class="publications">
     <h2 class="publications__name">Публикации</h2>
     <div class="publications__wrapper">
@@ -363,6 +377,7 @@
     </div>
   </section>
 
+  <!--TEAM-->
   <section id="team" class="team">
     <h2 class="publications__name team__name">Наша команда</h2>
     <div class="team__slider-container">
@@ -374,9 +389,10 @@
     </div>
   </section>
 
+  <!--PARTNERS-->
   <section id="partners" class="partners">
     <div class="partners__container">
-      <p class="partners__title">с кем мы работаем</p>
+      <h2 class="partners__title">с кем мы работаем</h2>
       <p class="partners__paragraph">За время сотрудничества компания показала себя как надежный партнер, способный
         оперативно решать вопросы по
         внесению необходимых изменений.</p>
@@ -388,86 +404,88 @@
         <li class="partners__li">
           <a href="#">
             <img
-            class="partners__icon"
-            src="images/partners/gazprom.svg"
-            alt="газ "/>
+              class="partners__icon"
+              src="<%=require('./images/partners/gazprom.svg')%>"
+              alt="газ">
           </a>
         </li>
         <li class="partners__li">
           <a href="#">
             <img
-            class="partners__icon"
-            src="images/partners/sberbank.svg"
-            alt="сбер"/>
+              class="partners__icon"
+              src="<%=require('./images/partners/sberbank.svg')%>"
+              alt="сбер">
           </a>
         </li>
         <li class="partners__li">
           <a href="#">
             <img
-            class="partners__icon"
-            src="images/partners/mailru.svg"
-            alt="мейлру"/>
+              class="partners__icon"
+              src="<%=require('./images/partners/mailru.svg')%>"
+              alt="мейлру">
           </a>
         </li>
         <li class="partners__li">
           <a href="#">
             <img
-            class="partners__icon"
-            src="images/partners/siemens.svg"
-            alt="сименс"/>
+              class="partners__icon"
+              src="<%=require('./images/partners/siemens.svg')%>"
+              alt="сименс">
           </a>
         </li>
         <li class="partners__li">
           <a href="#">
             <img
-            class="partners__icon"
-            src="images/partners/huawei.svg"
-            alt="хуавей"/>
+              class="partners__icon"
+              src="<%=require('./images/partners/huawei.svg')%>"
+              alt="хуавей">
           </a>
         </li>
         <li class="partners__li">
           <a href="#">
             <img
-            class="partners__icon"
-            src="images/partners/sberbank.svg"
-            alt="сбер"/>
+              class="partners__icon"
+              src="<%=require('./images/partners/sberbank.svg')%>"
+              alt="сбер">
           </a>
         </li>
         <li class="partners__li">
           <a href="#">
             <img
-            class="partners__icon"
-            src="images/partners/rosneft.svg"
-            alt="роснефть"/>
+              class="partners__icon"
+              src="<%=require('./images/partners/huawei.svg')%>"
+              alt="хуавей">
           </a>
         </li>
         <li class="partners__li">
           <a href="#">
             <img
-            class="partners__icon"
-            src="images/partners/gazprom.svg"
-            alt="газ "/>
+              class="partners__icon"
+              src="<%=require('./images/partners/rosneft.svg')%>"
+              alt="роснефть">
           </a>
         </li>
         <li class="partners__li">
           <a href="#">
             <img
-            class="partners__icon"
-            src="images/partners/huawei.svg"
-            alt="хуавей"/>
+              class="partners__icon"
+              src="<%=require('./images/partners/gazprom.svg')%>"
+              alt="газ">
           </a>
         </li>
         <li class="partners__li">
           <a href="#">
             <img
-            class="partners__icon"
-            src="images/partners/mailru.svg"
-            alt="мейлру"/>
+              class="partners__icon"
+              src="<%=require('./images/partners/mailru.svg')%>"
+              alt="мейлру">
           </a>
         </li>
       </ul>
     </div>
   </section>
+
+  <!--FEEDBACK-->
   <section id="feedback" class="feedback">
     <div class="feedback__container">
       <h2 class="feedback__title">Всегда на&nbsp;связи</h2>
@@ -476,21 +494,46 @@
         написать на&nbsp;почту или оставитьь свое сообщение через форму обратной связи.
       </p>
       <form class="feedback__form">
-        <input type="text" class="feedback__input feedback__input_type_name" placeholder="Имя" minlength="2"
-               maxlength="15" required>
-        <input type="text" class="feedback__input feedback__input_type_surname" placeholder="Фамилия" minlength="2"
-               maxlength="15">
-        <input type="tel" class="feedback__input feedback__input_type_phone" placeholder="Телефон" maxlength="20">
-        <input type="email" class="feedback__input feedback__input_type_email" placeholder="E-mail" maxlength="50"
-               required>
-        <textarea class="feedback__input feedback__input_type_message" placeholder="Сообщение"
-                  maxlength="350"></textarea>
+        <input
+          type="text"
+          class="feedback__input feedback__input_type_name"
+          placeholder="Имя"
+          minlength="2"
+          maxlength="15"
+          required
+        >
+        <input
+          type="text"
+          class="feedback__input feedback__input_type_surname"
+          placeholder="Фамилия"
+          minlength="2"
+          maxlength="15"
+        >
+        <input
+          type="tel"
+          class="feedback__input feedback__input_type_phone"
+          placeholder="Телефон"
+          maxlength="20"
+        >
+        <input
+          type="email"
+          class="feedback__input feedback__input_type_email"
+          placeholder="E-mail"
+          maxlength="50"
+          required
+        >
+        <textarea
+          class="feedback__input feedback__input_type_message"
+          placeholder="Сообщение"
+          maxlength="350"
+        ></textarea>
         <button class="feedback__button" type="submit">Отправить</button>
       </form>
     </div>
   </section>
 </main>
 
+<!--FOOTER-->
 <footer class="footer">
   <div class="footer__container">
     <img src="<%=require('./images/logo.png')%>" alt="Логотип" class="footer__logo">
@@ -599,11 +642,11 @@
 <section id="research-popup">
 </section>
 
-<!--ABOUT-->
+<!--ABOUT template-->
 <template id="about-template">
 </template>
 
-<!--PROJECTS-->
+<!--PROJECTS template-->
 <template id="projects-template">
   <li class="project">
     <div class="project__logo"></div>
@@ -613,7 +656,7 @@
   </li>
 </template>
 
-<!--PUBLICATIONS-->
+<!--PUBLICATIONS template-->
 <template id="publications-template">
   <div class="publications-card swiper-slide">
     <div class="publications-card__info">
@@ -635,22 +678,42 @@
     </div>
     <div class="tooltip">
       <div class="tooltip__box">
-        <button class="tooltip__social-btn tooltip_social-vk" type="button"><img src="<%=require('./images/icons/social_vk-emerald.svg')%>" alt="Вконтакте"
-                                                class="tooltip__social-icon"></button>
-        <button class="tooltip__social-btn tooltip_social-fb" type="button"><img src="<%=require('./images/icons/social_facebook-emerald.svg')%>" alt="Фейсбук"
-                                                class="tooltip__social-icon"></button>
-        <button class="tooltip__social-btn tooltip_social-tg" type="button"><img src="<%=require('./images/icons/social_telegram-emerald.svg')%>" alt="Телеграм"
-                                                class="tooltip__social-icon"></button>
-        <button class="tooltip__social-btn tooltip_social-insta" type="button"><img src="<%=require('./images/icons/social_insta-emerald.svg')%>" alt="Инстаграм"
-                                                class="tooltip__social-icon"></button>
-        <button class="tooltip__social-btn tooltip_social-youtube" type="button"><img src="<%=require('./images/icons/social_youtube-emerald.svg')%>" alt="Ютуб"
-                                                class="tooltip__social-icon"></button>
+        <button class="tooltip__social-btn tooltip_social-vk" type="button">
+          <img
+            src="<%=require('./images/icons/social_vk-emerald.svg')%>"
+            alt="Вконтакте"
+            class="tooltip__social-icon">
+        </button>
+        <button class="tooltip__social-btn tooltip_social-fb" type="button">
+          <img
+            src="<%=require('./images/icons/social_facebook-emerald.svg')%>"
+            alt="Фейсбук"
+            class="tooltip__social-icon">
+        </button>
+        <button class="tooltip__social-btn tooltip_social-tg" type="button">
+          <img
+            src="<%=require('./images/icons/social_telegram-emerald.svg')%>"
+            alt="Телеграм"
+            class="tooltip__social-icon">
+        </button>
+        <button class="tooltip__social-btn tooltip_social-insta" type="button">
+          <img
+            src="<%=require('./images/icons/social_insta-emerald.svg')%>"
+            alt="Инстаграм"
+            class="tooltip__social-icon">
+        </button>
+        <button class="tooltip__social-btn tooltip_social-youtube" type="button">
+          <img
+            src="<%=require('./images/icons/social_youtube-emerald.svg')%>"
+            alt="Ютуб"
+            class="tooltip__social-icon">
+        </button>
       </div>
     </div>
   </div>
 </template>
 
-<!--TEAM-->
+<!--TEAM template-->
 <template id="team-template">
   <div class="team-card swiper-slide">
     <img src=# alt="" class="team-card__photo">
@@ -661,7 +724,6 @@
     </div>
   </div>
 </template>
-
 
 </body>
 </html>
