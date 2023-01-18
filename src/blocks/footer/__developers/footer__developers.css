@@ -1,6 +1,6 @@
 .footer__developers {
   margin: 40px auto 0;
-  opacity: 50%;
+  opacity: .5;
   grid-column: 1 / span 2;
 }
 
