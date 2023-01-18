@@ -8,6 +8,7 @@
   <title>ITMO lab</title>
 </head>
 <body class="root">
+<!--HEADER-->
 <header class="header">
   <input class="header__button" type="checkbox" id="header__button">
   <label class="header__button-label" for="header__button"></label>
@@ -65,7 +66,9 @@
     </ul>
   </nav>
 </header>
+<!--MAIN-->
 <main class="main">
+  <!--INTRO-->
   <section id="intro" class="intro">
     <div class="intro__container">
       <div>
@@ -76,6 +79,7 @@
       </div>
     </div>
   </section>
+  <!--ABOUT-->
   <section id="about" class="about">
     <div class="about__container">
       <h2 class="about__title">Несколько слов о нас</h2>
@@ -188,6 +192,7 @@
       </div>
     </div>
   </section>
+  <!--RESEARCH-->
   <section class="research" id="research">
     <div class="research__container">
       <h2 class="research__title">Industrial AI research lab</h2>
@@ -243,6 +248,7 @@
         </ul>
       </div>
     </div>
+    <!--RESEARCH POPUP-->
     <div class="research__popup">
       <div class="research__popup-container">
         <div class="research__popup-wrapper">
@@ -265,8 +271,8 @@
         </div>
       </div>
     </div>
-
   </section>
+  <!--PROJECTS-->
   <section id="projects" class="projects">
     <div class="projects__container">
       <h2 class="projects__title">Наши проекты</h2>
@@ -297,6 +303,7 @@
       <button class="projects__btn-gallery" type="button" aria-label="Открыть галерею проектов"></button>
     </div>
   </section>
+  <!--EDUCATION-->
   <section id="education" class="education">
     <div class="education__container">
       <h2 class="education__title">Образование</h2>
@@ -352,6 +359,7 @@
       </div>
     </div>
   </section>
+  <!--PUBLICATIONS-->
   <section id="publications" class="publications">
     <h2 class="publications__name">Публикации</h2>
     <div class="publications__wrapper">
@@ -362,7 +370,7 @@
       </div>
     </div>
   </section>
-
+  <!--TEAM-->
   <section id="team" class="team">
     <h2 class="publications__name team__name">Наша команда</h2>
     <div class="team__slider-container">
@@ -373,7 +381,7 @@
       </div>
     </div>
   </section>
-
+  <!--PARTNERS-->
   <section id="partners" class="partners">
     <div class="partners__container">
       <p class="partners__title">с кем мы работаем</p>
@@ -468,6 +476,7 @@
       </ul>
     </div>
   </section>
+  <!--FEEDBACK-->
   <section id="feedback" class="feedback">
     <div class="feedback__container">
       <h2 class="feedback__title">Всегда на&nbsp;связи</h2>
@@ -490,7 +499,7 @@
     </div>
   </section>
 </main>
-
+<!--FOOTER-->
 <footer class="footer">
   <div class="footer__container">
     <img src="<%=require('./images/logo.png')%>" alt="Логотип" class="footer__logo">
@@ -661,7 +670,6 @@
     </div>
   </div>
 </template>
-
 
 </body>
 </html>
