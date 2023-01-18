@@ -1,0 +1,36 @@
+.publications-card__desc {
+  margin: 0;
+  margin-top: auto;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--dark-blue);
+  font-weight: 400;
+  z-index: 2;
+  -webkit-line-clamp: 8;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .publications-card__desc {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .publications-card__desc {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publications-card__desc {
+    font-size: 14px;
+    line-height: 19px;
+    -webkit-line-clamp: 7;
+  }
+}
+

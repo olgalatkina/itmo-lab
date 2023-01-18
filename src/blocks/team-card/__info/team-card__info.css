@@ -1,0 +1,19 @@
+.team-card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .team-card__info {
+    width: 170px;
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .team-card__info {
+    width: 215px;
+  }
+}

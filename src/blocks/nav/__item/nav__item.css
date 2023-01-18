@@ -1,0 +1,21 @@
+.nav__item {
+  font-size: 16px;
+  line-height: 19px;
+  transition: background-color 0.3s;
+}
+
+.nav__item:hover {
+  background-color: var(--blue);
+}
+
+
+@media (min-width: 1000px) {
+  .nav__item {
+    font-size: 14px;
+    transition: box-shadow 0.4s;
+  }
+  .nav__item:hover {
+    background-color: inherit;
+    box-shadow: 0px 2px 0px var(--emerald);
+  }
+}

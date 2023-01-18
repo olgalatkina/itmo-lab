@@ -1,0 +1,22 @@
+.feedback {
+  width: 100%;
+  background-color: var(--emerald);
+  font-family: 'Open Sans';
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .feedback {
+    padding: 60px 0;
+  }
+}
+
+@media (min-width: 1440px) {
+  .feedback {
+    padding: 80px 0 35px;
+  }
+}

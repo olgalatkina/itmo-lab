@@ -1,0 +1,24 @@
+.footer__menu-link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.footer__menu-link:hover,
+.footer__menu-link:focus {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .footer__menu-link {
+    line-height: 16px;
+    letter-spacing: normal;
+  }
+}
+
+@media (min-width: 1440px) {
+  .footer__menu-link {
+    line-height: 19px;
+    transition: opacity .3s linear;
+    opacity: .7;
+  }
+}

@@ -1,0 +1,22 @@
+.publications__wrapper {
+  position: relative;
+  margin: 0 auto 0;
+}
+
+@media (min-width: 768px) {
+  .publications__wrapper {
+    width: 695px;
+  }
+}
+
+@media (min-width: 1270px) {
+  .publications__wrapper {
+    width: 1090px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .publications__wrapper {
+    width: 1150px;
+  }
+}

@@ -1,0 +1,9 @@
+.education__button {
+  display: none;
+}
+
+.education__button:checked + .education__button-label {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+  font-weight: 600;
+}

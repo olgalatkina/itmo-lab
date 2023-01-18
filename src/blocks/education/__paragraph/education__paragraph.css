@@ -1,0 +1,26 @@
+.education__paragraph {
+  max-width: 920px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: var(--white);
+  text-align: left;
+  margin: 20px 0 20px;
+}
+
+@media (min-width: 600px) {
+  .education__paragraph {
+    font-size: 1.8vw;
+    line-height: 2.6vw;
+    margin: 30px 0 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .education__paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 30px 0 60px;
+  }
+}

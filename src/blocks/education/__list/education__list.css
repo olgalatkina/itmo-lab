@@ -1,0 +1,7 @@
+.education__list {
+  padding: 0;
+  padding-left: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: var(--dark-blue);
+}

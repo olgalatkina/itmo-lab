@@ -1,0 +1,54 @@
+.footer__icon {
+  display: block;
+  transition: opacity .3s linear;
+}
+
+.footer__icon:hover,
+.footer__icon:focus {
+  opacity: .7;
+}
+
+/* смена цвета иконки при помощи mask-image  */
+
+/* .footer__icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  background-color: var(--light-blue);
+  transition: background-color .3s linear;
+}
+
+.footer__icon:hover {
+  background-color: var(--emerald);
+} */
+
+/* .footer__icon_type_vk {
+  -webkit-mask-image: url(../../../images/icons/social_vk.svg);
+  mask-image: url(../../../images/icons/social_vk.svg);
+}
+
+.footer__icon_type_facebook {
+  -webkit-mask-image: url(../../../images/icons/social_facebook.svg);
+  mask-image: url(../../../images/icons/social_facebook.svg);
+}
+
+.footer__icon_type_telegram {
+  -webkit-mask-image: url(../../../images/icons/social_telegram.svg);
+  mask-image: url(../../../images/icons/social_telegram.svg);
+}
+
+.footer__icon_type_instagram {
+  -webkit-mask-image: url(../../../images/icons/social_insta.svg);
+  mask-image: url(../../../images/icons/social_insta.svg);
+}
+
+.footer__icon_type_youtube {
+  -webkit-mask-image: url(../../../images/icons/social_youtube.svg);
+  mask-image: url(../../../images/icons/social_youtube.svg);
+} */

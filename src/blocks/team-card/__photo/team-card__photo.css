@@ -1,0 +1,22 @@
+.team-card__photo {
+  /*margin: 10px auto 10px;*/
+  width: 120px;
+  height: 160px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .team-card__photo {
+    height: 226px;
+    width: 170px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .team-card__photo {
+    height: 286px;
+    width: 215px;
+  }
+}
+

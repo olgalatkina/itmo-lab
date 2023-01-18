@@ -1,0 +1,9 @@
+.team__cards {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin: 0 auto 0;
+  transition: all .2s linear;
+}

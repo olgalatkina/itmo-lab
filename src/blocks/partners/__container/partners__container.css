@@ -1,0 +1,19 @@
+.partners__container{
+  max-width: 1110px;
+  width: calc(100% - 32px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .partners__container {
+    width: calc(100% - 80px);
+  }
+}
+
+@media (min-width: 1440px) {
+  .partners__container {
+    width: calc(100% - 330px);
+  }
+}

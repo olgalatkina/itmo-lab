@@ -1,0 +1,38 @@
+.intro__button {
+  display: block;
+  background: inherit;
+  border: 1px solid var(--white);
+  color: var(--white);
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 12.5px 16px;
+  width: 288px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.intro__button:hover, .intro__button:active, .intro__button:focus {
+  color: var(--emerald);
+  border-color: var(--emerald);
+}
+
+@media (min-width: 600px) {
+  .intro__button {
+    width: 330px;
+    padding: 15px 16px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .intro__button {
+    width: 350px;
+  }
+}

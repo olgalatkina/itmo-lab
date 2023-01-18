@@ -1,0 +1,32 @@
+.research__photo-main {
+  width: 100%;
+  min-width: 288px;
+  max-width: 330px;
+  height: 180px;
+  border-radius: 5px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .research__photo-main {
+    min-width: 330px;
+    height: 240px;
+    margin-left: 30px;
+    margin-top: 0;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .research__photo-main {
+    margin-left: 12px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .research__photo-main {
+    max-width: 264px;
+    height: 276px;
+  }
+}

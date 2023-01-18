@@ -1,0 +1,7 @@
+.header__empty-area {
+  grid-column: 3;
+  grid-row: 2;
+  background-color: inherit;
+  display: none;
+  pointer-events: none;
+}

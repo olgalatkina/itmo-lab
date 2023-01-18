@@ -1,0 +1,35 @@
+.project {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 34px 56px auto;
+  position: relative;
+  width: auto;
+  height: 140px;
+  max-height: 140px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--emerald);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  /* transition: all .5s linear; */
+}
+
+@media (min-width: 768px) {
+  .project {
+    grid-template-rows: 60px 80px auto;
+    height: 210px;
+    max-height: 210px;
+    padding: 16px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .project {
+    grid-template-rows: 68px 80px auto;
+    height: 238px;
+    max-height: 238px;
+    padding: 20px;
+  }
+}

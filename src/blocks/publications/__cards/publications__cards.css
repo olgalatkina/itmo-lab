@@ -1,0 +1,6 @@
+.publications__cards {
+  display: flex;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: calc(100% - 40px);
+}

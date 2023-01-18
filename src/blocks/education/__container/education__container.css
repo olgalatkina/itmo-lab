@@ -1,0 +1,13 @@
+.education__container {
+  max-width: 1169px;
+  width: calc(100% - 32px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .education__container {
+    width: calc(100% - 78px);
+  }
+}

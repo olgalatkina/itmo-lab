@@ -1,0 +1,21 @@
+.nav__sublink {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--white);
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 0 10px 32px;
+}
+
+@media (min-width: 600px) {
+  .nav__sublink {
+    padding-left: 56px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .nav__sublink {
+    padding: 5px 8px;
+  }
+}

@@ -1,0 +1,10 @@
+.publications-card__info-text {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1440px) {
+  .publications-card__info-text {
+    height: 285px;
+  }
+}

@@ -1,0 +1,6 @@
+.project__link_disabled,
+.project__link_disabled:hover,
+.project__link_disabled:focus {
+  color: var(--blue);
+  opacity: .3;
+}

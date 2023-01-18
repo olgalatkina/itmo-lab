@@ -1,0 +1,22 @@
+.partners__icon {
+  display: block;
+  transition: opacity .3s linear;
+  max-height: 20px;
+}
+
+.partners__icon:hover,
+.partners__icon:focus {
+  opacity: .7;
+}
+
+@media (min-width: 768px) {
+  .partners__icon {
+    max-height: 32px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .partners__icon {
+    max-height: 45px;
+  }
+}
